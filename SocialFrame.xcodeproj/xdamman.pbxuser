@@ -1,0 +1,53 @@
+// !$*UTF8*$!
+{
+	F2CF8E1A1220439E00CDF2EE /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = F2CF8E291220439E00CDF2EE /* SocialFrame */;
+		activeTarget = F2CF8E261220439E00CDF2EE /* SocialFrame */;
+		codeSenseManager = F2CF8E1E1220439E00CDF2EE /* Code sense */;
+		executables = (
+			F2CF8E291220439E00CDF2EE /* SocialFrame */,
+		);
+		ignoreBreakpointsInProjectsDict = {
+		};
+		userBuildSettings = {
+		};
+	};
+	F2CF8E1E1220439E00CDF2EE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F2CF8E261220439E00CDF2EE /* SocialFrame */ = {
+		activeExec = 0;
+		executables = (
+			F2CF8E291220439E00CDF2EE /* SocialFrame */,
+		);
+	};
+	F2CF8E291220439E00CDF2EE /* SocialFrame */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SocialFrame;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+}

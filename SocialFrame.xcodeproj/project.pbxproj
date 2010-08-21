@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2CF8E2B1220439E00CDF2EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CF8E2A1220439E00CDF2EE /* UIKit.framework */; };
+		F2CF8E2D1220439E00CDF2EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CF8E2C1220439E00CDF2EE /* Foundation.framework */; };
+		F2CF8E2F1220439E00CDF2EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CF8E2E1220439E00CDF2EE /* CoreGraphics.framework */; };
+		F2CF8E341220439E00CDF2EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2CF8E321220439E00CDF2EE /* InfoPlist.strings */; };
+		F2CF8E361220439E00CDF2EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CF8E351220439E00CDF2EE /* main.m */; };
+		F2CF8E391220439E00CDF2EE /* SocialFrameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CF8E381220439E00CDF2EE /* SocialFrameAppDelegate.m */; };
+		F2CF8E3C1220439E00CDF2EE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2CF8E3A1220439E00CDF2EE /* MainWindow.xib */; };
+		F2CF8E3F1220439E00CDF2EE /* SocialFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CF8E3E1220439E00CDF2EE /* SocialFrameViewController.m */; };
+		F2CF8E421220439E00CDF2EE /* SocialFrameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2CF8E401220439E00CDF2EE /* SocialFrameViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2CF8E271220439E00CDF2EE /* SocialFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2CF8E2A1220439E00CDF2EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2CF8E2C1220439E00CDF2EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2CF8E2E1220439E00CDF2EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2CF8E301220439E00CDF2EE /* SocialFrame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialFrame-Info.plist"; sourceTree = "<group>"; };
+		F2CF8E311220439E00CDF2EE /* SocialFrame_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialFrame_Prefix.pch; sourceTree = "<group>"; };
+		F2CF8E331220439E00CDF2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2CF8E351220439E00CDF2EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2CF8E371220439E00CDF2EE /* SocialFrameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialFrameAppDelegate.h; sourceTree = "<group>"; };
+		F2CF8E381220439E00CDF2EE /* SocialFrameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialFrameAppDelegate.m; sourceTree = "<group>"; };
+		F2CF8E3B1220439E00CDF2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		F2CF8E3D1220439E00CDF2EE /* SocialFrameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialFrameViewController.h; sourceTree = "<group>"; };
+		F2CF8E3E1220439E00CDF2EE /* SocialFrameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialFrameViewController.m; sourceTree = "<group>"; };
+		F2CF8E411220439E00CDF2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SocialFrameViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2CF8E241220439E00CDF2EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2CF8E2B1220439E00CDF2EE /* UIKit.framework in Frameworks */,
+				F2CF8E2D1220439E00CDF2EE /* Foundation.framework in Frameworks */,
+				F2CF8E2F1220439E00CDF2EE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2CF8E181220439E00CDF2EE = {
+			isa = PBXGroup;
+			children = (
+				F2CF8E1F1220439E00CDF2EE /* Classes */,
+				F2CF8E201220439E00CDF2EE /* Other Sources */,
+				F2CF8E211220439E00CDF2EE /* Resources */,
+				F2CF8E221220439E00CDF2EE /* Frameworks */,
+				F2CF8E281220439E00CDF2EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2CF8E1F1220439E00CDF2EE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F2CF8E371220439E00CDF2EE /* SocialFrameAppDelegate.h */,
+				F2CF8E381220439E00CDF2EE /* SocialFrameAppDelegate.m */,
+				F2CF8E3D1220439E00CDF2EE /* SocialFrameViewController.h */,
+				F2CF8E3E1220439E00CDF2EE /* SocialFrameViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F2CF8E201220439E00CDF2EE /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F2CF8E311220439E00CDF2EE /* SocialFrame_Prefix.pch */,
+				F2CF8E351220439E00CDF2EE /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		F2CF8E211220439E00CDF2EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2CF8E301220439E00CDF2EE /* SocialFrame-Info.plist */,
+				F2CF8E321220439E00CDF2EE /* InfoPlist.strings */,
+				F2CF8E3A1220439E00CDF2EE /* MainWindow.xib */,
+				F2CF8E401220439E00CDF2EE /* SocialFrameViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F2CF8E221220439E00CDF2EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2CF8E2A1220439E00CDF2EE /* UIKit.framework */,
+				F2CF8E2C1220439E00CDF2EE /* Foundation.framework */,
+				F2CF8E2E1220439E00CDF2EE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2CF8E281220439E00CDF2EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2CF8E271220439E00CDF2EE /* SocialFrame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2CF8E261220439E00CDF2EE /* SocialFrame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2CF8E451220439E00CDF2EE /* Build configuration list for PBXNativeTarget "SocialFrame" */;
+			buildPhases = (
+				F2CF8E231220439E00CDF2EE /* Sources */,
+				F2CF8E241220439E00CDF2EE /* Frameworks */,
+				F2CF8E251220439E00CDF2EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialFrame;
+			productName = SocialFrame;
+			productReference = F2CF8E271220439E00CDF2EE /* SocialFrame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2CF8E1A1220439E00CDF2EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Commentag SPRL";
+			};
+			buildConfigurationList = F2CF8E1D1220439E00CDF2EE /* Build configuration list for PBXProject "SocialFrame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2CF8E181220439E00CDF2EE;
+			productRefGroup = F2CF8E281220439E00CDF2EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2CF8E261220439E00CDF2EE /* SocialFrame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2CF8E251220439E00CDF2EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2CF8E341220439E00CDF2EE /* InfoPlist.strings in Resources */,
+				F2CF8E3C1220439E00CDF2EE /* MainWindow.xib in Resources */,
+				F2CF8E421220439E00CDF2EE /* SocialFrameViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2CF8E231220439E00CDF2EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2CF8E361220439E00CDF2EE /* main.m in Sources */,
+				F2CF8E391220439E00CDF2EE /* SocialFrameAppDelegate.m in Sources */,
+				F2CF8E3F1220439E00CDF2EE /* SocialFrameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2CF8E321220439E00CDF2EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2CF8E331220439E00CDF2EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2CF8E3A1220439E00CDF2EE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2CF8E3B1220439E00CDF2EE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		F2CF8E401220439E00CDF2EE /* SocialFrameViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2CF8E411220439E00CDF2EE /* en */,
+			);
+			name = SocialFrameViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2CF8E431220439E00CDF2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F2CF8E441220439E00CDF2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		F2CF8E461220439E00CDF2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SocialFrame_Prefix.pch;
+				INFOPLIST_FILE = "SocialFrame-Info.plist";
+				PRODUCT_NAME = SocialFrame;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2CF8E471220439E00CDF2EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SocialFrame_Prefix.pch;
+				INFOPLIST_FILE = "SocialFrame-Info.plist";
+				PRODUCT_NAME = SocialFrame;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2CF8E1D1220439E00CDF2EE /* Build configuration list for PBXProject "SocialFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2CF8E431220439E00CDF2EE /* Debug */,
+				F2CF8E441220439E00CDF2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2CF8E451220439E00CDF2EE /* Build configuration list for PBXNativeTarget "SocialFrame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2CF8E461220439E00CDF2EE /* Debug */,
+				F2CF8E471220439E00CDF2EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2CF8E1A1220439E00CDF2EE /* Project object */;
+}
