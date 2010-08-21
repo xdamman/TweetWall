@@ -12,6 +12,7 @@
 @interface TweetView : UIView {
 	IBOutlet UITextView *tweetContent;
 	IBOutlet UIImageView *avatar;
+	
 }
 
 - (void)dealloc;

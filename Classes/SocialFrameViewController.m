@@ -36,6 +36,7 @@
     [super viewDidLoad];
 	TweetView *tweetView = [self loadWithNibName:@"TweetView"];
 	twitter = [[Twitter alloc] init];
+	utils = [[Utility alloc] init];
 	searchbar.text = @"#iosdevcamp";
 	[scrollView addSubview:tweetView];
 }
@@ -71,8 +72,10 @@
 
 - (IBAction) clickButton {
 	NSLog(@"Click %@",searchbar.text);
-	NSArray *tweets = [twitter searchByKeyword:searchbar.text limit:10];
+	NSArray *tweets = [utils getTwitListByKeyword:searchbar.text]; //[twitter searchByKeyword:searchbar.text limit:10];
+	
 	NSLog(@"tweets: %@",tweets);
+
 }
 
 

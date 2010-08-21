@@ -8,7 +8,11 @@
 
 #import "Utility.h"
 
-
 @implementation Utility
 
+- (NSArray*) getTwitListByKeyword:(NSString*) keyword {
+	twitter = [[Twitter alloc] init];
+	NSArray *tweets = [twitter searchByKeyword:keyword limit:10];
+	return tweets;
+}
 @end

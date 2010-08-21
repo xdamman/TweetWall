@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "Twitter.h"
+#import "Utility.h"
 
 @interface SocialFrameViewController : UIViewController {
 	IBOutlet UIButton *playBtn;
@@ -17,6 +18,7 @@
 	IBOutlet UIScrollView *scrollView;
 	
 	Twitter *twitter;
+	Utility *utils;
 }
 
 - (IBAction) clickButton;
