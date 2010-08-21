@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57BEB9481220901500874EF1 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BEB9471220901500874EF1 /* Utility.m */; };
 		F2B0046012205DCE0055478E /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0045D12205DCE0055478E /* Twitter.m */; };
 		F2B0046112205DCE0055478E /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0045F12205DCE0055478E /* Tweet.m */; };
 		F2B0046712205EC50055478E /* TweetView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0046612205EC50055478E /* TweetView.m */; };
@@ -37,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57BEB9461220901500874EF1 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		57BEB9471220901500874EF1 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 		F2B0045C12205DCE0055478E /* Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
 		F2B0045D12205DCE0055478E /* Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
 		F2B0045E12205DCE0055478E /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
@@ -124,6 +127,8 @@
 				F2CF8E3E1220439E00CDF2EE /* SocialFrameViewController.m */,
 				F2B0046512205EC50055478E /* TweetView.h */,
 				F2B0046612205EC50055478E /* TweetView.m */,
+				57BEB9461220901500874EF1 /* Utility.h */,
+				57BEB9471220901500874EF1 /* Utility.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -304,6 +309,7 @@
 				F2B0046012205DCE0055478E /* Twitter.m in Sources */,
 				F2B0046112205DCE0055478E /* Tweet.m in Sources */,
 				F2B0046712205EC50055478E /* TweetView.m in Sources */,
+				57BEB9481220901500874EF1 /* Utility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

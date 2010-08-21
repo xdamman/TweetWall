@@ -72,7 +72,7 @@
 - (IBAction) clickButton {
 	NSLog(@"Click %@",searchbar.text);
 	NSArray *tweets = [twitter searchByKeyword:searchbar.text limit:10];
-//	NSLog(@"tweets: %@",tweets);
+	NSLog(@"tweets: %@",tweets);
 }
 
 
