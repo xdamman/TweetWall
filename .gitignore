@@ -1,4 +1,5 @@
-*SocialFrame.xcodeproj/*.mode1v3		
-*SocialFrame.xcodeproj/xcuserdata		
-*SocialFrame.xcodeproj/project.xcworkspace	
+SocialFrame.xcodeproj/*.pbxuser
+SocialFrame.xcodeproj/*.mode1v3
+SocialFrame.xcodeproj/xcuserdata		
+SocialFrame.xcodeproj/project.xcworkspace	
 build*
