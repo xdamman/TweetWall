@@ -11,7 +11,7 @@
 
 @implementation ImageLoader
 
-- (UIImage *)loadImageFromURL: (NSURL *)url {
++ (UIImage *)loadImageFromURL: (NSURL *)url {
 	NSString* documentsPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
 	NSString *fileName = [self md5:[NSString stringWithFormat:@"%@",url]];	
 	NSString* filePath = [documentsPath stringByAppendingPathComponent:fileName];
@@ -30,11 +30,11 @@
 	return image;
 }
 
-- (BOOL)fileExists: (NSString *)filePath {
++ (BOOL)fileExists: (NSString *)filePath {
 	return [[NSFileManager defaultManager] fileExistsAtPath:filePath];
 }
 
-- (NSString *) md5:(NSString *)str {
++ (NSString *) md5:(NSString *)str {
 	const char *cStr = [str UTF8String];
 	unsigned char result[16];
 	CC_MD5( cStr, strlen(cStr), result );

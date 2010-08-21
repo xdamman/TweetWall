@@ -7,10 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Twitter.h"
 
 @interface SocialFrameViewController : UIViewController {
-
+	IBOutlet UIButton *playBtn;
+	IBOutlet UIToolbar *toolbar;
+	IBOutlet UILabel *label1;
+	IBOutlet UISearchBar *searchbar;
+	IBOutlet UIScrollView *scrollView;
+	
+	Twitter *twitter;
 }
+
+- (IBAction) clickButton;
+- (id) loadWithNibName: (NSString *)nibName;
 
 @end
 

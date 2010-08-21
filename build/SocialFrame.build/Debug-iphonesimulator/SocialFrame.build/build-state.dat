@@ -1,0 +1,1010 @@
+TSocialFrame
+v7
+r0
+t304121954.140678
+cCheck dependencies
+cProcessInfoPlistFile /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/Info.plist SocialFrame-Info.plist
+cProcessPCH /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch.gch SocialFrame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/main.o /Users/xdamman/Dropbox/iPad/SocialFrame/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/SocialFrameAppDelegate.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/SocialFrameViewController.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CDataScanner_Extensions.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSCharacterSet_Extensions.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSCharacterSet_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSScanner_Extensions.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONDataSerializer.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONDataSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONDeserializer.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONScanner.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONSerializer.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CSerializedJSONData.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CSerializedJSONData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CDataScanner.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/ApiController.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ApiController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Channel.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Pic.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/ImageLoader.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ImageLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Twitter.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Tweet.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Tweet.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/TweetView.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/TweetView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/SocialFrame normal i386
+cGenerateDSYMFile /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app.dSYM /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/SocialFrame
+cCopyStringsFile /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings
+cCompileXIB /Users/xdamman/Dropbox/iPad/SocialFrame/en.lproj/MainWindow.xib
+cCompileXIB /Users/xdamman/Dropbox/iPad/SocialFrame/en.lproj/SocialFrameViewController.xib
+cCompileXIB /Users/xdamman/Dropbox/iPad/SocialFrame/TweetView.xib
+cTouch /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004BB23E580000000000000110
+t1269972568
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BA03AB3000000000026F020
+t1268791987
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B9F1DE40000000000289C20
+t1268719076
+s2661408
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B9F1DD60000000000001355
+t1268719062
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BA6CAEC000000000000098F
+t1269222124
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BA6CB31000000000214E400
+t1269222193
+s34923520
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/Availability.h
+c000000004B9F1E7D0000000000001A1A
+t1268719229
+s6682
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/CommonCrypto/CommonDigest.h
+c000000004748A1090000000000002500
+t1195942153
+s9472
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/../CDataScanner.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/../JSON/CJSONDataSerializer.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/../JSON/CJSONDeserializer.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/../JSON/CJSONScanner.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/../JSON/CJSONSerializer.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/../JSON/CSerializedJSONData.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/Extensions/../BigPicture/github/BigPicture/xcode/Classes/Extensions/CDataScanner_Extensions.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/Extensions/../BigPicture/github/BigPicture/xcode/Classes/Extensions/NSCharacterSet_Extensions.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/Extensions/../BigPicture/github/BigPicture/xcode/Classes/Extensions/NSDictionary_JSONExtensions.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/Extensions/../BigPicture/github/BigPicture/xcode/Classes/Extensions/NSScanner_Extensions.m
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ApiController.h
+c000000004C0EDFBB0000000000000232
+t1276043195
+s562
+i<Foundation/Foundation.h>
+i"CJSONDeserializer.h"
+i"Channel.h"
+i"Pic.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ApiController.m
+c000000004C0EDFBB0000000000000C06
+t1276043195
+s3078
+i"ApiController.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CDataScanner.h
+c000000004C0EDFBB000000000000095B
+t1276043195
+s2395
+i<Foundation/Foundation.h>
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CDataScanner.m
+c000000004C0EDFBB0000000000001674
+t1276043195
+s5748
+i"CDataScanner.h"
+i"CDataScanner_Extensions.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONDataSerializer.h
+c000000004C0EDFBB0000000000000716
+t1276043195
+s1814
+i<Foundation/Foundation.h>
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONDataSerializer.m
+c000000004C0EDFBB0000000000001AB2
+t1276043195
+s6834
+i"CJSONDataSerializer.h"
+i"CSerializedJSONData.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONDeserializer.h
+c000000004C0EDFBB0000000000000681
+t1276043195
+s1665
+i<Foundation/Foundation.h>
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONDeserializer.m
+c000000004C0EDFBB0000000000000B3A
+t1276043195
+s2874
+i"CJSONDeserializer.h"
+i"CJSONScanner.h"
+i"CDataScanner.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONScanner.h
+c000000004C0EDFBB00000000000007C2
+t1276043195
+s1986
+i"CDataScanner.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONScanner.m
+c000000004C0EDFBB0000000000003937
+t1276043195
+s14647
+i"CJSONScanner.h"
+i"NSCharacterSet_Extensions.h"
+i"CDataScanner_Extensions.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONSerializer.h
+c000000004C0EDFBB0000000000000787
+t1276043195
+s1927
+i<Foundation/Foundation.h>
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONSerializer.m
+c000000004C0EDFBB00000000000008C6
+t1276043195
+s2246
+i"CJSONSerializer.h"
+i"CJSONDataSerializer.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CSerializedJSONData.h
+c000000004C0EDFBB00000000000005A9
+t1276043195
+s1449
+i<Foundation/Foundation.h>
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CSerializedJSONData.m
+c000000004C0EDFBB00000000000005FB
+t1276043195
+s1531
+i"CSerializedJSONData.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.h
+c000000004C0EDFBB00000000000002C9
+t1276043195
+s713
+i<Foundation/Foundation.h>
+i"ImageLoader.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m
+c000000004C0EDFBB00000000000005AB
+t1276043195
+s1451
+i"Channel.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/CDataScanner_Extensions.h
+c000000004C0EDFBB00000000000005AD
+t1276043195
+s1453
+i"CDataScanner.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/CDataScanner_Extensions.m
+c000000004C0EDFBB00000000000009EC
+t1276043195
+s2540
+i"CDataScanner_Extensions.h"
+i"NSCharacterSet_Extensions.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSCharacterSet_Extensions.h
+c000000004C0EDFBB000000000000057A
+t1276043195
+s1402
+i<Foundation/Foundation.h>
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSCharacterSet_Extensions.m
+c000000004C0EDFBB0000000000000731
+t1276043195
+s1841
+i"NSCharacterSet_Extensions.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSDictionary_JSONExtensions.h
+c000000004C0EDFBB0000000000000598
+t1276043195
+s1432
+i<Foundation/Foundation.h>
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSDictionary_JSONExtensions.m
+c000000004C0EDFBB0000000000000613
+t1276043195
+s1555
+i"NSDictionary_JSONExtensions.h"
+i"CJSONDeserializer.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSScanner_Extensions.h
+c000000004C0EDFBB0000000000000656
+t1276043195
+s1622
+i<Foundation/Foundation.h>
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSScanner_Extensions.m
+c000000004C0EDFBB0000000000000D65
+t1276043195
+s3429
+i"NSScanner_Extensions.h"
+i"NSCharacterSet_Extensions.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ImageLoader.h
+c000000004C702B5700000000000001BC
+t1282419543
+s444
+i<Foundation/Foundation.h>
+i<CommonCrypto/CommonDigest.h>
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ImageLoader.m
+c000000004C702B52000000000000077D
+t1282419538
+s1917
+i"ImageLoader.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.h
+c000000004C11619400000000000002DA
+t1276207508
+s730
+i<Foundation/Foundation.h>
+i"ImageLoader.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m
+c000000004C11618F00000000000008A8
+t1276207503
+s2216
+i"Pic.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/PublitweetBackend.h
+c000000004BCB3FAD0000000000000263
+t1271611309
+s611
+i<Foundation/Foundation.h>
+i"CJSONDeserializer.h"
+i"Tweet.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/PublitweetBackend.m
+c000000004C702A890000000000000B16
+t1282419337
+s2838
+i"PublitweetBackend.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameAppDelegate.h
+c000000004C700C1E00000000000001FE
+t1282411550
+s510
+i<UIKit/UIKit.h>
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameAppDelegate.m
+c000000004C700C1E0000000000000325
+t1282411550
+s805
+i"SocialFrameAppDelegate.h"
+i"SocialFrameViewController.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameViewController.h
+c000000004C703AF20000000000000208
+t1282423538
+s520
+i<UIKit/UIKit.h>
+i"Twitter.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameViewController.m
+c000000004C704AE800000000000007F7
+t1282427624
+s2039
+i"SocialFrameViewController.h"
+i"TweetView.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.h
+c000000004C701A650000000000000144
+t1282415205
+s324
+i<UIKit/UIKit.h>
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m
+c000000004C7019EA00000000000007FD
+t1282415082
+s2045
+i"ToolbarController.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Tweet.h
+c000000004C703F6900000000000002C0
+t1282424681
+s704
+i<Foundation/Foundation.h>
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Tweet.m
+c000000004C7050DE0000000000000508
+t1282429150
+s1288
+i"Tweet.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/TweetView.h
+c000000004C702B890000000000000139
+t1282419593
+s313
+i<UIKit/UIKit.h>
+i"ImageLoader.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/TweetView.m
+c000000004C7030E000000000000003C3
+t1282420960
+s963
+i"TweetView.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.h
+c000000004C7041A6000000000000022D
+t1282425254
+s557
+i<Foundation/Foundation.h>
+i"CJSONDeserializer.h"
+i"Tweet.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m
+c000000004C704AE30000000000000A54
+t1282427619
+s2644
+i"Twitter.h"
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/SocialFrame_Prefix.pch
+c000000004C700C1E0000000000000149
+t1282411550
+s329
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<Availability.h>
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/TweetView.xib
+c000000004C70313E00000000000047B5
+t1282421054
+s18357
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app
+t1282429154
+s238
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app.dSYM
+t1282429154
+s102
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/Info.plist
+t1282412795
+s809
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/PkgInfo
+t1282412795
+s8
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/SocialFrame
+t1282429154
+s82984
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/TweetView.nib
+t1282421061
+s1954
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/en.lproj/InfoPlist.strings
+t1282412799
+s120
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/en.lproj/MainWindow.nib
+t1282412800
+s1125
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/en.lproj/SocialFrameViewController.nib
+t1282424426
+s1419
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/ApiController.o
+t1282419544
+s14404
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CDataScanner.o
+t1282412798
+s21720
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CDataScanner_Extensions.o
+t1282412797
+s9492
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONDataSerializer.o
+t1282412797
+s22316
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONDeserializer.o
+t1282412798
+s10280
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONScanner.o
+t1282412798
+s31428
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONSerializer.o
+t1282412798
+s11320
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CSerializedJSONData.o
+t1282412798
+s8112
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Channel.o
+t1282419544
+s16624
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/ImageLoader.o
+t1282419544
+s11880
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSCharacterSet_Extensions.o
+t1282412797
+s6568
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
+t1282412797
+s6820
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSScanner_Extensions.o
+t1282412797
+s12316
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Pic.o
+t1282419544
+s18136
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/PublitweetBackend.o
+t1282419340
+s14640
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/SocialFrame.LinkFileList
+c000000004C703CEA0000000000000B13
+t1282424042
+s2835
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/SocialFrameAppDelegate.o
+t1282425256
+s43672
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/SocialFrameViewController.o
+t1282427628
+s42628
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/ToolbarController.o
+t2
+s0
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Tweet.o
+t1282429154
+s16608
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/TweetView.o
+t1282420961
+s19444
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Twitter.o
+t1282427628
+s14332
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/main.o
+t1282412797
+s5944
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/en.lproj/InfoPlist.strings
+c000000004C700C1E0000000000000063
+t1282411550
+s99
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/en.lproj/MainWindow.xib
+c000000004C700C1E0000000000004D31
+t1282411550
+s19761
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/en.lproj/SocialFrameViewController.xib
+c000000004C703E6500000000000061B0
+t1282424421
+s25008
+
+N/Users/xdamman/Dropbox/iPad/SocialFrame/main.m
+c000000004C700C1E000000000000016E
+t1282411550
+s366
+i<UIKit/UIKit.h>
+
+N/var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch.gch
+t1282412797
+s13838224
+
+NSocialFrame-Info.plist
+c000000004C700C1E000000000000068F
+t1282411550
+s1679
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies304121953#304121954#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/ApiController.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ApiController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304112344.637525
+e304112344.720318
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/ApiController.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ApiController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ApiController.m304112344#304112344#0(0"0(0#0#63"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ApiController.m4300911832#2127"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ApiController.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/ApiController.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CDataScanner.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/../CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CDataScanner.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304105598.152974
+e304105598.260141
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CDataScanner.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CDataScanner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CDataScanner.m304105598#304105598#0(0"0(0#0#62"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CDataScanner.m4300911832#2125"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CDataScanner.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CDataScanner.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CDataScanner_Extensions.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/Extensions/../BigPicture/github/BigPicture/xcode/Classes/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CDataScanner_Extensions.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304105597.688597
+e304105597.753500
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CDataScanner_Extensions.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/CDataScanner_Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/CDataScanner_Extensions.m304105597#304105597#0(0"0(0#0#84"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/CDataScanner_Extensions.m4300911832#2158"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/CDataScanner_Extensions.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CDataScanner_Extensions.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONDataSerializer.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/../JSON/CJSONDataSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONDataSerializer.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONDataSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304105597.883182
+e304105598.008042
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONDataSerializer.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONDataSerializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONDataSerializer.m304105597#304105598#0(0"0(0#0#69"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONDataSerializer.m4300911832#2139"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONDataSerializer.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONDataSerializer.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONDeserializer.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/../JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONDeserializer.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304105597.979492
+e304105598.050445
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONDeserializer.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONDeserializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONDeserializer.m304105597#304105598#0(0"0(0#0#67"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONDeserializer.m4300911832#2135"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONDeserializer.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONDeserializer.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONScanner.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/../JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONScanner.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304105598.008155
+e304105598.152867
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONScanner.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONScanner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONScanner.m304105598#304105598#0(0"0(0#0#62"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONScanner.m4300911832#2125"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONScanner.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONScanner.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONSerializer.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/../JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONSerializer.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304105598.050552
+e304105598.117178
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONSerializer.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONSerializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONSerializer.m304105598#304105598#0(0"0(0#0#65"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONSerializer.m4300911832#2131"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CJSONSerializer.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CJSONSerializer.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CSerializedJSONData.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/../JSON/CSerializedJSONData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CSerializedJSONData.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CSerializedJSONData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304105598.117282
+e304105598.196068
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CSerializedJSONData.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CSerializedJSONData.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CSerializedJSONData.m304105598#304105598#0(0"0(0#0#69"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CSerializedJSONData.m4300911832#2139"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/CSerializedJSONData.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/CSerializedJSONData.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Channel.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304112344.639065
+e304112344.724500
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Channel.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m: In function '-[Channel getImage]':
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m:37: warning: 'Channel' may not respond to '-loadImageFromURL:'
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m:37: warning: (Messages without a matching method signature
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m:37: warning: will be assumed to return 'id' and accept
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m:37: warning: '...' as arguments.)
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m: In function '-[Channel getThumbnail]':
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m:42: warning: 'Channel' may not respond to '-loadImageFromURL:'
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m: In function '-[Channel description]':
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m:46: warning: comparison of distinct Objective-C types 'struct NSNull *' and 'struct NSString *' lacks a cast
+lSLF07#2@65"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m304112344#304112344#0(1020"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m: In function '-[Channel getImage]':/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m:37: warning: 'Channel' may not respond to '-loadImageFromURL:'/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m:37: warning: (Messages without a matching method signature/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m:37: warning: will be assumed to return 'id' and accept/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m:37: warning: '...' as arguments.)/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m: In function '-[Channel getThumbnail]':/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m:42: warning: 'Channel' may not respond to '-loadImageFromURL:'/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m: In function '-[Channel description]':/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m:46: warning: comparison of distinct Objective-C types 'struct NSNull *' and 'struct NSString *' lacks a cast4(22@49"'Channel' may not respond to '-loadImageFromURL:'304112344#94#121#0(6@57"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m297735995#37#0#37#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)304112344#215#117#0(6@57"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m297735995#37#0#37#0#0"0(22@49"'Channel' may not respond to '-loadImageFromURL:'304112344#635#121#0(6@57"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m297735995#42#0#42#0#26"'*' may not respond to '*'0(22@95"Comparison of distinct Objective-C types 'struct NSNull *' and 'struct NSString *' lacks a cast304112344#853#167#0(6@57"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m297735995#46#0#46#0#0"0(0#0#57"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m4300911832#2115"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Channel.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Channel.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/ImageLoader.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ImageLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304112344.724605
+e304112344.808092
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/ImageLoader.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ImageLoader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ImageLoader.m304112344#304112344#0(0"0(0#0#61"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ImageLoader.m4300911832#2123"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ImageLoader.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/ImageLoader.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSCharacterSet_Extensions.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/Extensions/../BigPicture/github/BigPicture/xcode/Classes/Extensions/NSCharacterSet_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSCharacterSet_Extensions.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSCharacterSet_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304105597.753612
+e304105597.883079
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSCharacterSet_Extensions.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSCharacterSet_Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSCharacterSet_Extensions.m304105597#304105597#0(0"0(0#0#86"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSCharacterSet_Extensions.m4300911832#2162"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSCharacterSet_Extensions.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSCharacterSet_Extensions.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/Extensions/../BigPicture/github/BigPicture/xcode/Classes/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304105597.754900
+e304105597.822947
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSDictionary_JSONExtensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSDictionary_JSONExtensions.m304105597#304105597#0(0"0(0#0#88"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSDictionary_JSONExtensions.m4300911832#2166"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSDictionary_JSONExtensions.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSDictionary_JSONExtensions.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSScanner_Extensions.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/../../BigPicture/github/BigPicture/xcode/Classes/../../../../../../../../../BigPicture/github/BigPicture/xcode/Classes/Extensions/../BigPicture/github/BigPicture/xcode/Classes/Extensions/NSScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSScanner_Extensions.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304105597.823051
+e304105597.979359
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSScanner_Extensions.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSScanner_Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSScanner_Extensions.m304105597#304105597#0(0"0(0#0#81"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSScanner_Extensions.m4300911832#2152"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Extensions/NSScanner_Extensions.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/NSScanner_Extensions.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Pic.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304112344.720428
+e304112344.833757
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Pic.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m: In function '-[Pic getImage]':
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m:40: warning: 'Pic' may not respond to '-loadImageFromURL:'
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m:40: warning: (Messages without a matching method signature
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m:40: warning: will be assumed to return 'id' and accept
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m:40: warning: '...' as arguments.)
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m: In function '-[Pic getThumbnail]':
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m:44: warning: 'Pic' may not respond to '-loadImageFromURL:'
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m: In function '-[Pic description]':
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m:48: warning: comparison of distinct Objective-C types 'struct NSNull *' and 'struct NSString *' lacks a cast
+lSLF07#2@61"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m304112344#304112344#0(964"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m: In function '-[Pic getImage]':/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m:40: warning: 'Pic' may not respond to '-loadImageFromURL:'/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m:40: warning: (Messages without a matching method signature/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m:40: warning: will be assumed to return 'id' and accept/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m:40: warning: '...' as arguments.)/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m: In function '-[Pic getThumbnail]':/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m:44: warning: 'Pic' may not respond to '-loadImageFromURL:'/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m: In function '-[Pic description]':/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m:48: warning: comparison of distinct Objective-C types 'struct NSNull *' and 'struct NSString *' lacks a cast4(22@45"'Pic' may not respond to '-loadImageFromURL:'304112344#86#113#0(6@53"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m297900303#40#0#40#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)304112344#199#113#0(6@53"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m297900303#40#0#40#0#0"0(22@45"'Pic' may not respond to '-loadImageFromURL:'304112344#599#113#0(6@53"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m297900303#44#0#44#0#26"'*' may not respond to '*'0(22@95"Comparison of distinct Objective-C types 'struct NSNull *' and 'struct NSString *' lacks a cast304112344#801#163#0(6@53"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m297900303#48#0#48#0#0"0(0#0#53"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m4300911832#2107"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Pic.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Pic.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/PublitweetBackend.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/PublitweetBackend.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304112140.583411
+e304112140.727522
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/PublitweetBackend.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/PublitweetBackend.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/PublitweetBackend.m304112140#304112140#0(0"0(0#0#67"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/PublitweetBackend.m4300911832#2135"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/PublitweetBackend.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/PublitweetBackend.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/SocialFrameAppDelegate.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304118055.988783
+e304118056.083272
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/SocialFrameAppDelegate.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameAppDelegate.m304118055#304118056#0(0"0(0#0#72"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameAppDelegate.m4300911832#2145"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameAppDelegate.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/SocialFrameAppDelegate.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/SocialFrameViewController.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304120427.895305
+e304120428.068638
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/SocialFrameViewController.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameViewController.m: In function '-[SocialFrameViewController clickButton]':
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameViewController.m:74: warning: unused variable 'tweets'
+lSLF07#2@83"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameViewController.m304120427#304120428#0(247"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameViewController.m: In function '-[SocialFrameViewController clickButton]':/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameViewController.m:74: warning: unused variable 'tweets'1(22@24"Unused variable 'tweets'304120428#133#114#0(6@75"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameViewController.m304120424#74#0#74#0#19"unused variable '*'0(0#0#75"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameViewController.m4300911832#2151"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/SocialFrameViewController.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/SocialFrameViewController.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/ToolbarController.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304108639.448116
+e304108639.558698
+r0
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/ToolbarController.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m: In function '-[ToolbarController viewDidLoad]':
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m:8: warning: 'UIView' may not respond to '-viewDidLoad'
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m:8: warning: (Messages without a matching method signature
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m:8: warning: will be assumed to return 'id' and accept
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m:8: warning: '...' as arguments.)
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m:15: error: request for member 'view' in something not a structure or union
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m:54: error: request for member 'view' in something not a structure or union
+lSLF07#2@75"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m304108639#304108639#0(875"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m: In function '-[ToolbarController viewDidLoad]':/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m:8: warning: 'UIView' may not respond to '-viewDidLoad'/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m:8: warning: (Messages without a matching method signature/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m:8: warning: will be assumed to return 'id' and accept/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m:8: warning: '...' as arguments.)/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m:15: error: request for member 'view' in something not a structure or union/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m:54: error: request for member 'view' in something not a structure or union4(22@42"'UIView' may not respond to '-viewDidLoad'304108639#117#123#0(6@67"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m304107882#8#0#8#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)304108639#240#126#0(6@67"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m304107882#8#0#8#0#0"0(4@63"Request for member 'view' in something not a structure or union304108639#589#143#0(6@67"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m304107882#15#0#15#0#0"0(4@63"Request for member 'view' in something not a structure or union304108639#732#143#0(6@67"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m304107882#54#0#54#0#0"0(0#0#67"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m4300911832#2135"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/ToolbarController.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/ToolbarController.o1#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Tweet.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Tweet.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304121953.988712
+e304121954.069316
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Tweet.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Tweet.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Tweet.m304121953#304121954#0(0"0(0#0#55"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Tweet.m4300911832#2111"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Tweet.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Tweet.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/TweetView.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/TweetView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304113761.427185
+e304113761.491417
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/TweetView.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/TweetView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/TweetView.m304113761#304113761#0(0"0(0#0#59"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/TweetView.m4300911832#2119"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/TweetView.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/TweetView.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Twitter.o /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304120427.966355
+e304120428.193565
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Twitter.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m: In function '-[Twitter searchByScreenName:since:until:limit:]':
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m:62: warning: 'Twitter' may not respond to '-searchByKeyword:since:until:limit:'
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m:62: warning: (Messages without a matching method signature
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m:62: warning: will be assumed to return 'id' and accept
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m:62: warning: '...' as arguments.)
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m: In function '-[Twitter searchImages:since:until:limit:]':
+o/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m:67: warning: 'Twitter' may not respond to '-searchByKeyword:since:until:limit:'
+lSLF07#2@65"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m304120427#304120428#0(838"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m: In function '-[Twitter searchByScreenName:since:until:limit:]':/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m:62: warning: 'Twitter' may not respond to '-searchByKeyword:since:until:limit:'/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m:62: warning: (Messages without a matching method signature/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m:62: warning: will be assumed to return 'id' and accept/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m:62: warning: '...' as arguments.)/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m: In function '-[Twitter searchImages:since:until:limit:]':/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m:67: warning: 'Twitter' may not respond to '-searchByKeyword:since:until:limit:'3(22@66"'Twitter' may not respond to '-searchByKeyword:since:until:limit:'304120428#123#138#0(6@57"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m304120419#62#0#62#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)304120428#261#117#0(6@57"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m304120419#62#0#62#0#0"0(22@66"'Twitter' may not respond to '-searchByKeyword:since:until:limit:'304120428#700#138#0(6@57"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m304120419#67#0#67#0#26"'*' may not respond to '*'0(0#0#57"/Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m4300911832#2115"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/Classes/Twitter.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/Twitter.o0#
+
+CCompileC build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/main.o /Users/xdamman/Dropbox/iPad/SocialFrame/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304105597.403531
+e304105597.674119
+r1
+xCompileC
+xbuild/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/main.o
+x/Users/xdamman/Dropbox/iPad/SocialFrame/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/xdamman/Dropbox/iPad/SocialFrame/main.m304105597#304105597#0(0"0(0#0#46"/Users/xdamman/Dropbox/iPad/SocialFrame/main.m4300911832#2101"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -include /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch -c /Users/xdamman/Dropbox/iPad/SocialFrame/main.m -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/xdamman/Dropbox/iPad/SocialFrame/TweetView.xib
+s304113860.928020
+e304113861.522344
+r1
+xCompileXIB
+x/Users/xdamman/Dropbox/iPad/SocialFrame/TweetView.xib
+lSLF07#2@24"CompileXIB TweetView.xib304113860#304113861#0(0"0(0#0#53"/Users/xdamman/Dropbox/iPad/SocialFrame/TweetView.xib4300911832#628"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/TweetView.nib /Users/xdamman/Dropbox/iPad/SocialFrame/TweetView.xib0#
+
+CCompileXIB /Users/xdamman/Dropbox/iPad/SocialFrame/en.lproj/MainWindow.xib
+s304105599.157421
+e304105600.979285
+r1
+xCompileXIB
+x/Users/xdamman/Dropbox/iPad/SocialFrame/en.lproj/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@34"CompileXIB en.lproj/MainWindow.xib304105599#304105600#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#63"/Users/xdamman/Dropbox/iPad/SocialFrame/en.lproj/MainWindow.xib4300911832#648"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/en.lproj/MainWindow.nib /Users/xdamman/Dropbox/iPad/SocialFrame/en.lproj/MainWindow.xib0#
+
+CCompileXIB /Users/xdamman/Dropbox/iPad/SocialFrame/en.lproj/SocialFrameViewController.xib
+s304117226.414617
+e304117226.778783
+r1
+xCompileXIB
+x/Users/xdamman/Dropbox/iPad/SocialFrame/en.lproj/SocialFrameViewController.xib
+lSLF07#2@49"CompileXIB en.lproj/SocialFrameViewController.xib304117226#304117226#0(0"0(0#0#78"/Users/xdamman/Dropbox/iPad/SocialFrame/en.lproj/SocialFrameViewController.xib4300911832#678"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/en.lproj/SocialFrameViewController.nib /Users/xdamman/Dropbox/iPad/SocialFrame/en.lproj/SocialFrameViewController.xib0#
+
+CCopyStringsFile /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings
+s304105599.156512
+e304105599.569857
+r1
+xCopyStringsFile
+x/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/en.lproj/InfoPlist.strings
+xen.lproj/InfoPlist.strings
+lSLF07#2@31"Copy en.lproj/InfoPlist.strings304105599#304105599#0(0"0(0#0#66"/Users/xdamman/Dropbox/iPad/SocialFrame/en.lproj/InfoPlist.strings4300911832#632"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary en.lproj/InfoPlist.strings --outdir /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/en.lproj0#
+
+CGenerateDSYMFile /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app.dSYM /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/SocialFrame
+s304121954.102319
+e304121954.135319
+r1
+xGenerateDSYMFile
+x/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app.dSYM
+x/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/SocialFrame
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/SocialFrame.app.dSYM build/Debug-iphonesimulator/SocialFrame.app/SocialFrame304121954#304121954#0(0"0(0#0#95"/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/SocialFrame4300911832#541"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/usr/bin/dsymutil /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/SocialFrame -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app.dSYM0#
+
+CLd /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/SocialFrame normal i386
+s304121954.069408
+e304121954.102219
+r1
+xLd
+x/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/SocialFrame
+xnormal
+xi386
+lSLF07#2@100"Link /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/SocialFrame304121954#304121954#0(0"0(0#0#0"4300911832#1030"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -filelist /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/Objects-normal/i386/SocialFrame.LinkFileList -mmacosx-version-min=10.5 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/SocialFrame0#
+
+CProcessInfoPlistFile /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/Info.plist SocialFrame-Info.plist
+s304105595.786189
+e304105595.831909
+r1
+xProcessInfoPlistFile
+x/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/Info.plist
+xSocialFrame-Info.plist
+lSLF07#2@30"Process SocialFrame-Info.plist304105595#304105595#0(0"0(0#0#62"/Users/xdamman/Dropbox/iPad/SocialFrame/SocialFrame-Info.plist28992425118793828#637"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    builtin-infoPlistUtility SocialFrame-Info.plist -genpkginfo /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app/Info.plist0#
+
+CProcessPCH /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch.gch SocialFrame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s304105595.832077
+e304105597.403321
+r1
+xProcessPCH
+x/var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch.gch
+xSocialFrame_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile SocialFrame_Prefix.pch304105595#304105597#0(0"0(0#0#62"/Users/xdamman/Dropbox/iPad/SocialFrame/SocialFrame_Prefix.pch4300911832#1988"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-generated-files.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-own-target-headers.hmap -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-all-target-headers.hmap -iquote /Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/SocialFrame-project-headers.hmap -F/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/include -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources/i386 -I/Users/xdamman/Dropbox/iPad/SocialFrame/build/SocialFrame.build/Debug-iphonesimulator/SocialFrame.build/DerivedSources -c /Users/xdamman/Dropbox/iPad/SocialFrame/SocialFrame_Prefix.pch -o /var/folders/Sg/SgRiZsAPHjOJIF3arcqCPU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SocialFrame_Prefix-ahupnsgzuwhbxfgndumuzharegdh/SocialFrame_Prefix.pch.gch0#
+
+CTouch /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app
+s304121954.135645
+e304121954.140426
+r1
+xTouch
+x/Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app
+lSLF07#2@89"Touch /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app304121954#304121954#0(0"0(0#0#0"4300911832#427"    cd /Users/xdamman/Dropbox/iPad/SocialFrame    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/xdamman/.gem/ruby/1.8/bin:/usr/local/mongodb/bin/:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/usr/lib/php/bin/:/usr/local/mysql/bin"    /usr/bin/touch -c /Users/xdamman/Dropbox/iPad/SocialFrame/build/Debug-iphonesimulator/SocialFrame.app0#
+

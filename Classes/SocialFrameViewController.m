@@ -7,6 +7,7 @@
 //
 
 #import "SocialFrameViewController.h"
+#import "TweetView.h"
 
 @implementation SocialFrameViewController
 
@@ -29,12 +30,25 @@
 */
 
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
+	TweetView *tweetView = [self loadWithNibName:@"TweetView"];
+	twitter = [[Twitter alloc] init];
+	searchbar.text = @"#iosdevcamp";
+	[scrollView addSubview:tweetView];
 }
-*/
+
+- (id) loadWithNibName: (NSString *)nibName {
+	NSArray *array = [[NSBundle mainBundle] loadNibNamed:nibName owner:nil options:nil];
+	for (id obj in array) {
+		if ([obj isKindOfClass:[UIView class]]) {
+			return obj;
+		}
+	}
+	return nil;
+}
 
 
 // Ensure that the view controller supports rotation and that the split view can therefore show in both portrait and landscape.
@@ -52,10 +66,18 @@
 - (void)viewDidUnload {
 	// Release any retained subviews of the main view.
 	// e.g. self.myOutlet = nil;
+
+}
+
+- (IBAction) clickButton {
+	NSLog(@"Click %@",searchbar.text);
+	NSArray *tweets = [twitter searchByKeyword:searchbar.text limit:10];
+//	NSLog(@"tweets: %@",tweets);
 }
 
 
 - (void)dealloc {
+	[twitter dealloc];
     [super dealloc];
 }
 

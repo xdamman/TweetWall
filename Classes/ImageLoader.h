@@ -13,10 +13,10 @@
 
 }
 
-- (UIImage *)loadImageFromURL: (NSURL *)url;
-- (BOOL)fileExists: (NSString *) filePath;
++ (UIImage *)loadImageFromURL: (NSURL *)url;
++ (BOOL)fileExists: (NSString *) filePath;
 
-- (NSString *) md5:(NSString *)str;
++ (NSString *) md5:(NSString *)str;
 
 + (void)saveImage:(UIImage *)image withName:(NSString *)name;
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2B0046012205DCE0055478E /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0045D12205DCE0055478E /* Twitter.m */; };
+		F2B0046112205DCE0055478E /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0045F12205DCE0055478E /* Tweet.m */; };
+		F2B0046712205EC50055478E /* TweetView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0046612205EC50055478E /* TweetView.m */; };
+		F2B0046912205ED20055478E /* TweetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2B0046812205ED20055478E /* TweetView.xib */; };
 		F2CF8E2B1220439E00CDF2EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CF8E2A1220439E00CDF2EE /* UIKit.framework */; };
 		F2CF8E2D1220439E00CDF2EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CF8E2C1220439E00CDF2EE /* Foundation.framework */; };
 		F2CF8E2F1220439E00CDF2EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CF8E2E1220439E00CDF2EE /* CoreGraphics.framework */; };
@@ -33,6 +37,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2B0045C12205DCE0055478E /* Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
+		F2B0045D12205DCE0055478E /* Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
+		F2B0045E12205DCE0055478E /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		F2B0045F12205DCE0055478E /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
+		F2B0046512205EC50055478E /* TweetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetView.h; sourceTree = "<group>"; };
+		F2B0046612205EC50055478E /* TweetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetView.m; sourceTree = "<group>"; };
+		F2B0046812205ED20055478E /* TweetView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetView.xib; sourceTree = "<group>"; };
 		F2CF8E271220439E00CDF2EE /* SocialFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CF8E2A1220439E00CDF2EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F2CF8E2C1220439E00CDF2EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -111,6 +122,8 @@
 				F2CF8E381220439E00CDF2EE /* SocialFrameAppDelegate.m */,
 				F2CF8E3D1220439E00CDF2EE /* SocialFrameViewController.h */,
 				F2CF8E3E1220439E00CDF2EE /* SocialFrameViewController.m */,
+				F2B0046512205EC50055478E /* TweetView.h */,
+				F2B0046612205EC50055478E /* TweetView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -131,6 +144,7 @@
 				F2CF8E321220439E00CDF2EE /* InfoPlist.strings */,
 				F2CF8E3A1220439E00CDF2EE /* MainWindow.xib */,
 				F2CF8E401220439E00CDF2EE /* SocialFrameViewController.xib */,
+				F2B0046812205ED20055478E /* TweetView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -191,6 +205,10 @@
 		F2D76A32122048320084F721 /* backend */ = {
 			isa = PBXGroup;
 			children = (
+				F2B0045C12205DCE0055478E /* Twitter.h */,
+				F2B0045D12205DCE0055478E /* Twitter.m */,
+				F2B0045E12205DCE0055478E /* Tweet.h */,
+				F2B0045F12205DCE0055478E /* Tweet.m */,
 				F2D76A25122048280084F721 /* ApiController.h */,
 				F2D76A26122048280084F721 /* ApiController.m */,
 				F2D76A27122048280084F721 /* Channel.h */,
@@ -255,6 +273,7 @@
 				F2CF8E341220439E00CDF2EE /* InfoPlist.strings in Resources */,
 				F2CF8E3C1220439E00CDF2EE /* MainWindow.xib in Resources */,
 				F2CF8E421220439E00CDF2EE /* SocialFrameViewController.xib in Resources */,
+				F2B0046912205ED20055478E /* TweetView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +301,9 @@
 				F2D76A2E122048280084F721 /* Channel.m in Sources */,
 				F2D76A2F122048280084F721 /* Pic.m in Sources */,
 				F2D76A30122048280084F721 /* ImageLoader.m in Sources */,
+				F2B0046012205DCE0055478E /* Twitter.m in Sources */,
+				F2B0046112205DCE0055478E /* Tweet.m in Sources */,
+				F2B0046712205EC50055478E /* TweetView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
