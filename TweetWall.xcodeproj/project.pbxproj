@@ -37,6 +37,8 @@
 		F2D76A23122047C50084F721 /* CSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D76A18122047C50084F721 /* CSerializedJSONData.m */; };
 		F2D76A24122047C50084F721 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D76A1A122047C50084F721 /* CDataScanner.m */; };
 		F2D76A30122048280084F721 /* ImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D76A2C122048280084F721 /* ImageLoader.m */; };
+		F2F470591221C1A200AF5FC1 /* large-speech-bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F470571221C1A200AF5FC1 /* large-speech-bubble.png */; };
+		F2F4705A1221C1A200AF5FC1 /* user-block-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F2F470581221C1A200AF5FC1 /* user-block-bg.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +94,8 @@
 		F2D76A1A122047C50084F721 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
 		F2D76A2B122048280084F721 /* ImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLoader.h; sourceTree = "<group>"; };
 		F2D76A2C122048280084F721 /* ImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLoader.m; sourceTree = "<group>"; };
+		F2F470571221C1A200AF5FC1 /* large-speech-bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "large-speech-bubble.png"; sourceTree = "<group>"; };
+		F2F470581221C1A200AF5FC1 /* user-block-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-block-bg.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 		5D60B7361220A12B00A3A6BF /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F2F470571221C1A200AF5FC1 /* large-speech-bubble.png */,
+				F2F470581221C1A200AF5FC1 /* user-block-bg.png */,
 				5D60B7371220A12B00A3A6BF /* space-bg.png */,
 			);
 			path = Images;
@@ -294,6 +300,8 @@
 				F2CF8E421220439E00CDF2EE /* TweetWallViewController.xib in Resources */,
 				F2B0046912205ED20055478E /* TweetView.xib in Resources */,
 				5D60B7381220A12B00A3A6BF /* space-bg.png in Resources */,
+				F2F470591221C1A200AF5FC1 /* large-speech-bubble.png in Resources */,
+				F2F4705A1221C1A200AF5FC1 /* user-block-bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,15 +386,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Kwenti, inc";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kwenti, inc";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Xavier Damman (8392A3T5KH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Xavier Damman (8392A3T5KH)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "43D53055-EA58-4275-A612-27ECA1993F51";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "43D53055-EA58-4275-A612-27ECA1993F51";
+				PROVISIONING_PROFILE = "BB2A023B-6FB7-4F51-BDBC-FA408C2679A0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BB2A023B-6FB7-4F51-BDBC-FA408C2679A0";
 				SDKROOT = iphoneos3.2;
 				TARGETED_DEVICE_FAMILY = 2;
 			};

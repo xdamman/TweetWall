@@ -18,18 +18,21 @@
 	NSDate		*timestamp;
 	NSURL		*image;
 	NSURL		*thumbnail;
+	NSDictionary *user;
 	float		id;
 }
 
 - (id) initWithDictionary:(NSDictionary *)tweetData;
+- (void) getUserInfoThread;
 
-@property (copy) NSString *screenName;
-@property (copy) NSString *content;
-@property (copy) NSString *type;
-@property (copy) NSURL *permalink;
-@property (copy) NSURL *avatar;
-@property (copy) NSDate *timestamp;
-@property (copy) NSURL *image;
-@property (copy) NSURL *thumbnail;
+@property (nonatomic,retain) NSString *screenName;
+@property (nonatomic,retain) NSDictionary *user;
+@property (nonatomic,retain) NSString *content;
+@property (nonatomic,retain) NSString *type;
+@property (nonatomic,retain) NSURL *permalink;
+@property (nonatomic,retain) NSURL *avatar;
+@property (nonatomic,retain) NSDate *timestamp;
+@property (nonatomic,retain) NSURL *image;
+@property (nonatomic,retain) NSURL *thumbnail;
 
 @end

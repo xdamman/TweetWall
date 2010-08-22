@@ -13,7 +13,6 @@
 @interface Twitter : NSObject
 
 - (NSArray *)searchByKeyword:(NSString *)keyword limit:(int)limit;
-- (NSArray *)searchByScreenName:(NSString *)screenName since:(NSDate *)since until:(NSDate *)until limit:(int)limit;
-- (NSArray *)searchImages:(NSString *)keyword since:(NSDate *)since until:(NSDate *)until limit:(int)limit;
+- (NSDictionary *)getUserInfo:(NSString *)screenName;
 
 @end

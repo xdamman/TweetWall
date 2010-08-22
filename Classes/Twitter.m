@@ -57,15 +57,30 @@
 	//NSLog(@"Tweets: %@",tweets);
 }
 
-- (NSArray *)searchByScreenName:(NSString *)screenName since:(NSDate *)since until:(NSDate *)until limit:(int)limit
-{
-    return [self searchByKeyword:[NSString stringWithFormat:@"from:%@",screenName] limit:limit];
+- (NSDictionary *)getUserInfo:(NSString *)screenName {
+	
+	NSString *queryString = [[NSString stringWithFormat:@"http://api.twitter.com/1/users/show/%@.json",screenName] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+	
+	NSLog(@"Requesting %@",queryString);
+	
+    NSError *error = nil;
+	NSString *json = [NSString stringWithContentsOfURL:[NSURL URLWithString:queryString]
+                                              encoding:NSUTF8StringEncoding
+                                                 error:&error];
+    
+	NSString *jsonObj = [NSString stringWithFormat:@"{\"root\":%@}",json];
+	
+	
+	NSData *jsonData = [jsonObj dataUsingEncoding:NSUTF32BigEndianStringEncoding];
+	error = nil;
+	
+	NSDictionary *userData = [[CJSONDeserializer deserializer] deserializeAsDictionary:jsonData error:&error];
+	
+	//NSLog(@"Error received: %@",error);
+	return [userData objectForKey:@"root"];
+	
 }
 
-- (NSArray *)searchImages:(NSString *)keyword since:(NSDate *)since until:(NSDate *)until limit:(int)limit
-{
-    return [self searchByKeyword:[NSString stringWithFormat:@"%@ AND (twitpic OR yfrog OR tweetphoto)",keyword] limit:limit];
-}
 
 - (NSArray *) processTweets:(NSDictionary *)tweetsData {
 

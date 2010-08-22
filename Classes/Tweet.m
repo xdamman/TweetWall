@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Tweet.h"
 #import "RegexKitLite.h"
+#import "Twitter.h"
 
 @implementation Tweet
 
@@ -20,6 +21,7 @@
 @synthesize image;
 @synthesize thumbnail;
 @synthesize type;
+@synthesize user;
 
 - (id) initWithDictionary:(NSDictionary *)tweetData {
 	if(self == [super init])
@@ -55,9 +57,21 @@
 			
 		}
 		
+		[NSThread detachNewThreadSelector:@selector(getUserInfoThread) toTarget:self withObject:nil];
 
 	}
 	return self;
+}
+
+- (void) getUserInfoThread {
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	NSLog(@"New thread");
+	Twitter *twitter = [[Twitter alloc] init];
+	user = [twitter getUserInfo:self.screenName];
+	NSLog(@"Fetching user %@: %@",self.screenName,user);
+//	[self performSelectorOnMainThread:@selector(searchTwitterDidFinish) withObject:nil waitUntilDone:NO];
+	[twitter release];
+	[pool release];
 }
 
 - (void)dealloc {

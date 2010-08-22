@@ -55,11 +55,11 @@
 	self.keyword = aKeyword;
 	// Thread 
 	NSLog(@"Searching for %@",aKeyword);
-	[NSThread detachNewThreadSelector:@selector(searchTwitter) toTarget:self withObject:nil];
+	[NSThread detachNewThreadSelector:@selector(searchTwitterThread) toTarget:self withObject:nil];
 	
 }
 												
-- (void) searchTwitter {
+- (void) searchTwitterThread {
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	NSLog(@"New thread");
 	
