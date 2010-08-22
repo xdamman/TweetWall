@@ -21,12 +21,10 @@
 		return [UIImage imageWithContentsOfFile:filePath];
 	}
 	
-	//NSLog(@"File %@ does not exist",filePath);
-
+	NSLog(@"File %@ does not exist, fetching %@",filePath,url);
 	NSData *data = [NSData dataWithContentsOfURL:url];
 	UIImage *image = [[UIImage alloc] initWithData:data];
 	[ImageLoader saveImage:image withName:fileName];
-	[data release];
 	[image autorelease];
 	return image;
 }

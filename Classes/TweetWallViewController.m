@@ -100,6 +100,51 @@
 	}
 }
 
+- (void) addTweet:(Tweet*)tweet {
+	
+	
+	// textView for Tweet text
+	CGRect tweetFrame = CGRectMake(200.0, 300.0, 600.0, 300.0);
+	UITextView *textView = [[UITextView alloc] initWithFrame:tweetFrame];
+	textView.text = tweet.content;
+	textView.font = [UIFont fontWithName:@"Arial" size:48.0f];
+	[self.view addSubview:textView];
+	// end textview
+	
+	// begin uilabel for user name
+	CGRect labelFrame = CGRectMake(300.0, 50.0, 400.0, 50.0);	
+	UILabel *userName = [[UILabel alloc] initWithFrame:labelFrame];
+	userName.text = tweet.screenName;
+	userName.font = [UIFont fontWithName:@"Arial" size:48.0f];
+	[self.view addSubview:userName];	
+	// end uilable
+	
+	// create imageView
+	UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(40.0, 40.0, 200.0, 200.0)];
+	imageView.image = [[ImageLoader loadImageFromURL:tweet.avatar] retain];
+//	[[UIImageView alloc] initWithFrame:Imageframe];
+//	imageView.image = [UIImage imageWithData:data];
+	[self.view addSubview:imageView];
+	// end imageView
+	
+	
+	/*
+	UIWebView* webview = [[UIWebView alloc] initWithFrame:CGRectMake(0.0f, 44.0f, 500, 324)];
+	webview.frame = CHCenterRectInRect(webview.frame, self.view.bounds);
+
+	webview.delegate = self;
+	
+	NSURLRequest *requestObj = [NSURLRequest requestWithURL:t.permalink];
+	
+	//load the URL into the web view.
+	[webview loadRequest:requestObj];
+	
+	//add the web view to the content view
+	[self.view addSubview:webview];
+	 */
+	
+}
+
 - (void) flipToNext {
 	NSLog(@"Entering timer.");
 	t = [utils getNext];
@@ -107,27 +152,6 @@
 	[self addTweet:t];
 }
 
-- (void) addTweet:(Tweet*)theTweet {
-	CALayer *tweetView;
-	tweetView = [CALayer layer];
-	tweetView.backgroundColor = [UIColor colorWithWhite:0.0f alpha:0.6f].CGColor;
-	tweetView.cornerRadius = 6.0f;
-	tweetView.masksToBounds = YES;
-	tweetView.frame = CGRectMake(0.0f, 0.0f, 540.0f, 250.0f);
-	tweetView.frame = CHCenterRectInRect(tweetView.frame, self.view.bounds);
-	
-	CATextLayer *tweetViewText = [CATextLayer layer];
-	tweetViewText.font = @"Helvetica Neue Bold";
-	tweetViewText.fontSize = 20.0f;
-	tweetViewText.foregroundColor = [UIColor whiteColor].CGColor;
-	tweetViewText.string = theTweet.content;
-	tweetViewText.alignmentMode = kCAAlignmentCenter;
-	tweetViewText.frame = CGRectInset(tweetView.bounds, 0.0f, 13.0f);
-	[tweetView addSublayer:tweetViewText];
-	
-	[self.view.layer addSublayer:tweetView];
-	
-}
 
 // delegate callback goes here
 - (void) utilityDidFinishFirstFetch {
