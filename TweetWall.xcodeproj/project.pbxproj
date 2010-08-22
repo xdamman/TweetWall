@@ -20,10 +20,10 @@
 		F2CF8E2F1220439E00CDF2EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2CF8E2E1220439E00CDF2EE /* CoreGraphics.framework */; };
 		F2CF8E341220439E00CDF2EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2CF8E321220439E00CDF2EE /* InfoPlist.strings */; };
 		F2CF8E361220439E00CDF2EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CF8E351220439E00CDF2EE /* main.m */; };
-		F2CF8E391220439E00CDF2EE /* SocialFrameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CF8E381220439E00CDF2EE /* SocialFrameAppDelegate.m */; };
+		F2CF8E391220439E00CDF2EE /* TweetWallAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CF8E381220439E00CDF2EE /* TweetWallAppDelegate.m */; };
 		F2CF8E3C1220439E00CDF2EE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2CF8E3A1220439E00CDF2EE /* MainWindow.xib */; };
-		F2CF8E3F1220439E00CDF2EE /* SocialFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CF8E3E1220439E00CDF2EE /* SocialFrameViewController.m */; };
-		F2CF8E421220439E00CDF2EE /* SocialFrameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2CF8E401220439E00CDF2EE /* SocialFrameViewController.xib */; };
+		F2CF8E3F1220439E00CDF2EE /* TweetWallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */; };
+		F2CF8E421220439E00CDF2EE /* TweetWallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2CF8E401220439E00CDF2EE /* TweetWallViewController.xib */; };
 		F2D76A1B122047C50084F721 /* CDataScanner_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D76A08122047C50084F721 /* CDataScanner_Extensions.m */; };
 		F2D76A1C122047C50084F721 /* NSCharacterSet_Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D76A0A122047C50084F721 /* NSCharacterSet_Extensions.m */; };
 		F2D76A1D122047C50084F721 /* NSDictionary_JSONExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D76A0C122047C50084F721 /* NSDictionary_JSONExtensions.m */; };
@@ -51,20 +51,20 @@
 		F2B0046512205EC50055478E /* TweetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetView.h; sourceTree = "<group>"; };
 		F2B0046612205EC50055478E /* TweetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetView.m; sourceTree = "<group>"; };
 		F2B0046812205ED20055478E /* TweetView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweetView.xib; sourceTree = "<group>"; };
-		F2CF8E271220439E00CDF2EE /* SocialFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2CF8E271220439E00CDF2EE /* TweetWall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetWall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2CF8E2A1220439E00CDF2EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F2CF8E2C1220439E00CDF2EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F2CF8E2E1220439E00CDF2EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F2CF8E301220439E00CDF2EE /* SocialFrame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocialFrame-Info.plist"; sourceTree = "<group>"; };
-		F2CF8E311220439E00CDF2EE /* SocialFrame_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialFrame_Prefix.pch; sourceTree = "<group>"; };
+		F2CF8E301220439E00CDF2EE /* TweetWall-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TweetWall-Info.plist"; sourceTree = "<group>"; };
+		F2CF8E311220439E00CDF2EE /* TweetWall_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweetWall_Prefix.pch; sourceTree = "<group>"; };
 		F2CF8E331220439E00CDF2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F2CF8E351220439E00CDF2EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F2CF8E371220439E00CDF2EE /* SocialFrameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialFrameAppDelegate.h; sourceTree = "<group>"; };
-		F2CF8E381220439E00CDF2EE /* SocialFrameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialFrameAppDelegate.m; sourceTree = "<group>"; };
+		F2CF8E371220439E00CDF2EE /* TweetWallAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweetWallAppDelegate.h; sourceTree = "<group>"; };
+		F2CF8E381220439E00CDF2EE /* TweetWallAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetWallAppDelegate.m; sourceTree = "<group>"; };
 		F2CF8E3B1220439E00CDF2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		F2CF8E3D1220439E00CDF2EE /* SocialFrameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialFrameViewController.h; sourceTree = "<group>"; };
-		F2CF8E3E1220439E00CDF2EE /* SocialFrameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialFrameViewController.m; sourceTree = "<group>"; };
-		F2CF8E411220439E00CDF2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SocialFrameViewController.xib; sourceTree = "<group>"; };
+		F2CF8E3D1220439E00CDF2EE /* TweetWallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TweetWallViewController.h; sourceTree = "<group>"; };
+		F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TweetWallViewController.m; sourceTree = "<group>"; };
+		F2CF8E411220439E00CDF2EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TweetWallViewController.xib; sourceTree = "<group>"; };
 		F2D76A07122047C50084F721 /* CDataScanner_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner_Extensions.h; sourceTree = "<group>"; };
 		F2D76A08122047C50084F721 /* CDataScanner_Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner_Extensions.m; sourceTree = "<group>"; };
 		F2D76A09122047C50084F721 /* NSCharacterSet_Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCharacterSet_Extensions.h; sourceTree = "<group>"; };
@@ -128,10 +128,10 @@
 			children = (
 				F2D76A32122048320084F721 /* backend */,
 				F2D76A05122047C50084F721 /* jSON */,
-				F2CF8E371220439E00CDF2EE /* SocialFrameAppDelegate.h */,
-				F2CF8E381220439E00CDF2EE /* SocialFrameAppDelegate.m */,
-				F2CF8E3D1220439E00CDF2EE /* SocialFrameViewController.h */,
-				F2CF8E3E1220439E00CDF2EE /* SocialFrameViewController.m */,
+				F2CF8E371220439E00CDF2EE /* TweetWallAppDelegate.h */,
+				F2CF8E381220439E00CDF2EE /* TweetWallAppDelegate.m */,
+				F2CF8E3D1220439E00CDF2EE /* TweetWallViewController.h */,
+				F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */,
 				F2B0046512205EC50055478E /* TweetView.h */,
 				F2B0046612205EC50055478E /* TweetView.m */,
 				57BEB9461220901500874EF1 /* Utility.h */,
@@ -145,7 +145,7 @@
 		F2CF8E201220439E00CDF2EE /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F2CF8E311220439E00CDF2EE /* SocialFrame_Prefix.pch */,
+				F2CF8E311220439E00CDF2EE /* TweetWall_Prefix.pch */,
 				F2CF8E351220439E00CDF2EE /* main.m */,
 			);
 			name = "Other Sources";
@@ -155,10 +155,10 @@
 			isa = PBXGroup;
 			children = (
 				5D60B7361220A12B00A3A6BF /* Images */,
-				F2CF8E301220439E00CDF2EE /* SocialFrame-Info.plist */,
+				F2CF8E301220439E00CDF2EE /* TweetWall-Info.plist */,
 				F2CF8E321220439E00CDF2EE /* InfoPlist.strings */,
 				F2CF8E3A1220439E00CDF2EE /* MainWindow.xib */,
-				F2CF8E401220439E00CDF2EE /* SocialFrameViewController.xib */,
+				F2CF8E401220439E00CDF2EE /* TweetWallViewController.xib */,
 				F2B0046812205ED20055478E /* TweetView.xib */,
 			);
 			name = Resources;
@@ -178,7 +178,7 @@
 		F2CF8E281220439E00CDF2EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F2CF8E271220439E00CDF2EE /* SocialFrame.app */,
+				F2CF8E271220439E00CDF2EE /* TweetWall.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,9 +234,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F2CF8E261220439E00CDF2EE /* SocialFrame */ = {
+		F2CF8E261220439E00CDF2EE /* TweetWall */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2CF8E451220439E00CDF2EE /* Build configuration list for PBXNativeTarget "SocialFrame" */;
+			buildConfigurationList = F2CF8E451220439E00CDF2EE /* Build configuration list for PBXNativeTarget "TweetWall" */;
 			buildPhases = (
 				F2CF8E231220439E00CDF2EE /* Sources */,
 				F2CF8E241220439E00CDF2EE /* Frameworks */,
@@ -246,9 +246,9 @@
 			);
 			dependencies = (
 			);
-			name = SocialFrame;
+			name = TweetWall;
 			productName = SocialFrame;
-			productReference = F2CF8E271220439E00CDF2EE /* SocialFrame.app */;
+			productReference = F2CF8E271220439E00CDF2EE /* TweetWall.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -257,9 +257,9 @@
 		F2CF8E1A1220439E00CDF2EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				ORGANIZATIONNAME = "Commentag SPRL";
+				ORGANIZATIONNAME = "Kwenti inc";
 			};
-			buildConfigurationList = F2CF8E1D1220439E00CDF2EE /* Build configuration list for PBXProject "SocialFrame" */;
+			buildConfigurationList = F2CF8E1D1220439E00CDF2EE /* Build configuration list for PBXProject "TweetWall" */;
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -270,7 +270,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F2CF8E261220439E00CDF2EE /* SocialFrame */,
+				F2CF8E261220439E00CDF2EE /* TweetWall */,
 			);
 		};
 /* End PBXProject section */
@@ -282,7 +282,7 @@
 			files = (
 				F2CF8E341220439E00CDF2EE /* InfoPlist.strings in Resources */,
 				F2CF8E3C1220439E00CDF2EE /* MainWindow.xib in Resources */,
-				F2CF8E421220439E00CDF2EE /* SocialFrameViewController.xib in Resources */,
+				F2CF8E421220439E00CDF2EE /* TweetWallViewController.xib in Resources */,
 				F2B0046912205ED20055478E /* TweetView.xib in Resources */,
 				5D60B7381220A12B00A3A6BF /* space-bg.png in Resources */,
 			);
@@ -296,8 +296,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2CF8E361220439E00CDF2EE /* main.m in Sources */,
-				F2CF8E391220439E00CDF2EE /* SocialFrameAppDelegate.m in Sources */,
-				F2CF8E3F1220439E00CDF2EE /* SocialFrameViewController.m in Sources */,
+				F2CF8E391220439E00CDF2EE /* TweetWallAppDelegate.m in Sources */,
+				F2CF8E3F1220439E00CDF2EE /* TweetWallViewController.m in Sources */,
 				F2D76A1B122047C50084F721 /* CDataScanner_Extensions.m in Sources */,
 				F2D76A1C122047C50084F721 /* NSCharacterSet_Extensions.m in Sources */,
 				F2D76A1D122047C50084F721 /* NSDictionary_JSONExtensions.m in Sources */,
@@ -336,12 +336,12 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		F2CF8E401220439E00CDF2EE /* SocialFrameViewController.xib */ = {
+		F2CF8E401220439E00CDF2EE /* TweetWallViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F2CF8E411220439E00CDF2EE /* en */,
 			);
-			name = SocialFrameViewController.xib;
+			name = TweetWallViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -368,12 +368,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kwenti, inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kwenti, inc";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
+				PROVISIONING_PROFILE = "43D53055-EA58-4275-A612-27ECA1993F51";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "43D53055-EA58-4275-A612-27ECA1993F51";
 				SDKROOT = iphoneos3.2;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -386,9 +389,9 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = SocialFrame_Prefix.pch;
-				INFOPLIST_FILE = "SocialFrame-Info.plist";
-				PRODUCT_NAME = SocialFrame;
+				GCC_PREFIX_HEADER = TweetWall_Prefix.pch;
+				INFOPLIST_FILE = "TweetWall-Info.plist";
+				PRODUCT_NAME = TweetWall;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -399,9 +402,9 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = SocialFrame_Prefix.pch;
-				INFOPLIST_FILE = "SocialFrame-Info.plist";
-				PRODUCT_NAME = SocialFrame;
+				GCC_PREFIX_HEADER = TweetWall_Prefix.pch;
+				INFOPLIST_FILE = "TweetWall-Info.plist";
+				PRODUCT_NAME = TweetWall;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -410,7 +413,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F2CF8E1D1220439E00CDF2EE /* Build configuration list for PBXProject "SocialFrame" */ = {
+		F2CF8E1D1220439E00CDF2EE /* Build configuration list for PBXProject "TweetWall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2CF8E431220439E00CDF2EE /* Debug */,
@@ -419,7 +422,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2CF8E451220439E00CDF2EE /* Build configuration list for PBXNativeTarget "SocialFrame" */ = {
+		F2CF8E451220439E00CDF2EE /* Build configuration list for PBXNativeTarget "TweetWall" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2CF8E461220439E00CDF2EE /* Debug */,

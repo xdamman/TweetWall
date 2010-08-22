@@ -1,6 +1,6 @@
 //
 //  main.m
-//  SocialFrame
+//  TweetWall
 //
 //  Created by Xavier Damman on 8/21/10.
 //  Copyright (c) 2010 Commentag SPRL. All rights reserved.
