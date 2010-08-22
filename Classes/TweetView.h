@@ -1,6 +1,6 @@
 //
 //  TweetView.h
-//  SocialFrame
+//  TweetWall
 //
 //  Created by Xavier Damman on 8/21/10.
 //  Copyright 2010 Commentag SPRL. All rights reserved.

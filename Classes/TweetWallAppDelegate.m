@@ -1,17 +1,17 @@
 //
-//  SocialFrameAppDelegate.m
-//  SocialFrame
+//  TweetWallAppDelegate.m
+//  TweetWall
 //
 //  Created by Xavier Damman on 8/21/10.
 //  Copyright (c) 2010 Commentag SPRL. All rights reserved.
 //
 
 
-#import "SocialFrameAppDelegate.h"
+#import "TweetWallAppDelegate.h"
 
-#import "SocialFrameViewController.h"
+#import "TweetWallViewController.h"
 
-@implementation SocialFrameAppDelegate
+@implementation TweetWallAppDelegate
 
 
 @synthesize window;

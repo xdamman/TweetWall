@@ -1,6 +1,6 @@
 //
-//  SocialFrameViewController.h
-//  SocialFrame
+//  TweetWallViewController.h
+//  TweetWall
 //
 //  Created by Xavier Damman on 8/21/10.
 //  Copyright (c) 2010 Commentag SPRL. All rights reserved.
@@ -12,7 +12,7 @@
 #import "Utility.h"
 #import "UIKit/UIWebView.h"
 
-@interface SocialFrameViewController : UIViewController <UISearchBarDelegate,UtilityDelegate,UIWebViewDelegate> {
+@interface TweetWallViewController : UIViewController <UISearchBarDelegate,UtilityDelegate,UIWebViewDelegate> {
 	Twitter *twitter;
 	Utility *utils;
 	Tweet *t;

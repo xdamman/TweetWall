@@ -1,16 +1,16 @@
 //
-//  SocialFrameViewController.m
-//  SocialFrame
+//  TweetWallViewController.m
+//  TweetWall
 //
 //  Created by Xavier Damman on 8/21/10.
 //  Copyright (c) 2010 Commentag SPRL. All rights reserved.
 //
 
-#import "SocialFrameViewController.h"
+#import "TweetWallViewController.h"
 #import "TweetView.h"
 #import "CALayer+Additions.h"
 
-@implementation SocialFrameViewController
+@implementation TweetWallViewController
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
