@@ -33,7 +33,7 @@
 	
 	UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 200.0f, 0.0f)];
 	searchBar.delegate = self;
-	NSString *searchText = @"#iosdevcamp";
+	NSString *searchText = @"#iosdevcamp twitpic";
 	searchBar.text = searchText;
 	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithCustomView:searchBar] autorelease];
 	[self search:searchText];

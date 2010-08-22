@@ -11,6 +11,8 @@
 		5D60B7381220A12B00A3A6BF /* space-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D60B7371220A12B00A3A6BF /* space-bg.png */; };
 		5D60B7951220A32300A3A6BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D60B7941220A32300A3A6BF /* QuartzCore.framework */; };
 		5D60B7A71220A38800A3A6BF /* CALayer+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60B7A61220A38800A3A6BF /* CALayer+Additions.m */; };
+		F29DD6BC1221A70B00B8F7BE /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = F29DD6BB1221A70B00B8F7BE /* RegexKitLite.m */; };
+		F29DD6C51221A80300B8F7BE /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F29DD6C41221A80300B8F7BE /* libicucore.dylib */; };
 		F2B0046012205DCE0055478E /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0045D12205DCE0055478E /* Twitter.m */; };
 		F2B0046112205DCE0055478E /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0045F12205DCE0055478E /* Tweet.m */; };
 		F2B0046712205EC50055478E /* TweetView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0046612205EC50055478E /* TweetView.m */; };
@@ -44,6 +46,9 @@
 		5D60B7941220A32300A3A6BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5D60B7A51220A38800A3A6BF /* CALayer+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Additions.h"; sourceTree = "<group>"; };
 		5D60B7A61220A38800A3A6BF /* CALayer+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Additions.m"; sourceTree = "<group>"; };
+		F29DD6BA1221A70B00B8F7BE /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		F29DD6BB1221A70B00B8F7BE /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		F29DD6C41221A80300B8F7BE /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		F2B0045C12205DCE0055478E /* Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
 		F2B0045D12205DCE0055478E /* Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
 		F2B0045E12205DCE0055478E /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
@@ -98,6 +103,7 @@
 				F2CF8E2D1220439E00CDF2EE /* Foundation.framework in Frameworks */,
 				F2CF8E2F1220439E00CDF2EE /* CoreGraphics.framework in Frameworks */,
 				5D60B7951220A32300A3A6BF /* QuartzCore.framework in Frameworks */,
+				F29DD6C51221A80300B8F7BE /* libicucore.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +132,8 @@
 		F2CF8E1F1220439E00CDF2EE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F29DD6BA1221A70B00B8F7BE /* RegexKitLite.h */,
+				F29DD6BB1221A70B00B8F7BE /* RegexKitLite.m */,
 				F2D76A32122048320084F721 /* backend */,
 				F2D76A05122047C50084F721 /* jSON */,
 				F2CF8E371220439E00CDF2EE /* TweetWallAppDelegate.h */,
@@ -171,6 +179,7 @@
 				F2CF8E2C1220439E00CDF2EE /* Foundation.framework */,
 				F2CF8E2E1220439E00CDF2EE /* CoreGraphics.framework */,
 				5D60B7941220A32300A3A6BF /* QuartzCore.framework */,
+				F29DD6C41221A80300B8F7BE /* libicucore.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -314,6 +323,7 @@
 				F2B0046712205EC50055478E /* TweetView.m in Sources */,
 				57BEB9481220901500874EF1 /* Utility.m in Sources */,
 				5D60B7A71220A38800A3A6BF /* CALayer+Additions.m in Sources */,
+				F29DD6BC1221A70B00B8F7BE /* RegexKitLite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

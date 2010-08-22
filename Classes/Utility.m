@@ -72,7 +72,7 @@
 
 	if (!tweets || tweets.count == 0) {
 		NSLog(@"No result found");
-		//[tweets addObjectsFromArray:[twitter searchByKeyword:@"no results" limit:20]];
+		[tweets addObjectsFromArray:[twitter searchByKeyword:@"\"no results\"" limit:20]];
 	}
 	
 	[self performSelectorOnMainThread:@selector(searchTwitterDidFinish) withObject:nil waitUntilDone:NO];
