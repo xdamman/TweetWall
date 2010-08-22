@@ -18,6 +18,7 @@
 	
 	twitter = [[Twitter alloc] init];
 	utils = [[Utility alloc] init];
+	utils.delegate = self;
 	
 	CGRect actualBounds = CGRectMake(0.0f, 0.0f, self.view.bounds.size.height, self.view.bounds.size.width); // the ipad sdk sucks and isn't able to figure out what orientation it's in at launch time, so we hardcode it
 	
@@ -35,7 +36,6 @@
 	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithCustomView:searchBar] autorelease];
 	[searchBar release];
 	
-	[self addTweet];
 }
 
 
@@ -49,6 +49,7 @@
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
 	NSString *searchText = searchBar.text;
 	if (searchText.length > 0) {
+		[utils setSearchKeyword:searchText];
 		self.navigationItem.title = [NSString stringWithFormat:@"Searching for \"%@\"", searchText];
 		[searchBar resignFirstResponder];
 		
@@ -74,7 +75,7 @@
 	}
 }
 
-- (void) addTweet {
+- (void) addTweet:(Tweet*)t {
 	CALayer *tweetView;
 	tweetView = [CALayer layer];
 	tweetView.backgroundColor = [UIColor colorWithWhite:0.0f alpha:0.6f].CGColor;
@@ -87,7 +88,7 @@
 	tweetViewText.font = @"Helvetica Neue Bold";
 	tweetViewText.fontSize = 20.0f;
 	tweetViewText.foregroundColor = [UIColor whiteColor].CGColor;
-	tweetViewText.string = @"This is my first tweet about #iOSDevCamp, awesome!";
+	tweetViewText.string = t.content;
 	tweetViewText.alignmentMode = kCAAlignmentCenter;
 	tweetViewText.frame = CGRectInset(tweetView.bounds, 0.0f, 13.0f);
 	[tweetView addSublayer:tweetViewText];
@@ -95,7 +96,14 @@
 	[self.view.layer addSublayer:tweetView];
 	
 }
+
 // delegate callback goes here
+- (void) utilityDidFinishFirstFetch {
+	loadingView.hidden = TRUE;
+	Tweet *t = [utils getNext];
+	NSLog(@"Next tweet: %@",t);
+	[self addTweet:t];
+}
 
 
 - (void)dealloc {

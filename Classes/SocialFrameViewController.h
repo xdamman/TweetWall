@@ -10,13 +10,14 @@
 #import "Twitter.h"
 #import "Utility.h"
 
-@interface SocialFrameViewController : UIViewController <UISearchBarDelegate> {
+@interface SocialFrameViewController : UIViewController <UISearchBarDelegate,UtilityDelegate> {
 	Twitter *twitter;
 	Utility *utils;
 	
 	CALayer *loadingView;
 }
 
-- (void) addTweet;
+- (void) addTweet:(Tweet*)t;
+- (void) utilityDidFinishFirstFetch;
 
 @end
