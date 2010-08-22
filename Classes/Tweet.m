@@ -23,7 +23,7 @@
 	if(self == [super init])
 	{
 		screenName	= [[tweetData objectForKey:@"from_user"] retain];
-		avatar		= [[tweetData objectForKey:@"profile_image_url"] retain];
+		avatar		= [[NSURL URLWithString:[tweetData objectForKey:@"profile_image_url"]] retain];
 		content		= [[tweetData objectForKey:@"text"] retain];
 		
 		NSDateFormatter *df = [[NSDateFormatter alloc] init];
@@ -40,6 +40,9 @@
 }
 
 - (void)dealloc {
+	[screenName release];
+	[avatar release];
+	[content release];
 	[super dealloc];
 }
 

@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "Twitter.h"
 #import "Utility.h"
+#import "UIKit/UIWebView.h"
 
-@interface SocialFrameViewController : UIViewController <UISearchBarDelegate,UtilityDelegate> {
+@interface SocialFrameViewController : UIViewController <UISearchBarDelegate,UtilityDelegate,UIWebViewDelegate> {
 	Twitter *twitter;
 	Utility *utils;
 	
@@ -18,6 +19,7 @@
 }
 
 - (void) addTweet:(Tweet*)t;
+- (void) search:(NSString *)searchText;
 - (void) utilityDidFinishFirstFetch;
 
 @end

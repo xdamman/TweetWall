@@ -33,8 +33,12 @@
 	
 	UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 200.0f, 0.0f)];
 	searchBar.delegate = self;
+	NSString *searchText = @"#iosdevcamp";
+	searchBar.text = searchText;
 	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithCustomView:searchBar] autorelease];
+	[self search:searchText];
 	[searchBar release];
+	
 	
 }
 
@@ -45,37 +49,53 @@
     return (iInterfaceOrientation == UIInterfaceOrientationLandscapeLeft || iInterfaceOrientation == UIInterfaceOrientationLandscapeRight);
 }
 
+- (void) search:(NSString *)searchText {
+	[utils setSearchKeyword:searchText];
+	self.navigationItem.title = [NSString stringWithFormat:@"Searching for \"%@\"", searchText];
+	if (!loadingView) {
+		loadingView = [CALayer layer];
+		loadingView.backgroundColor = [UIColor colorWithWhite:0.0f alpha:0.6f].CGColor;
+		loadingView.cornerRadius = 6.0f;
+		loadingView.masksToBounds = YES;
+		loadingView.frame = CGRectMake(0.0f, 0.0f, 140.0f, 50.0f);
+		loadingView.frame = CHCenterRectInRect(loadingView.frame, self.view.bounds);
+		
+		CATextLayer *loadingViewText = [CATextLayer layer];
+		loadingViewText.font = @"Helvetica Neue Bold";
+		loadingViewText.fontSize = 20.0f;
+		loadingViewText.foregroundColor = [UIColor whiteColor].CGColor;
+		loadingViewText.string = @"Loading...";
+		loadingViewText.alignmentMode = kCAAlignmentCenter;
+		loadingViewText.frame = CGRectInset(loadingView.bounds, 0.0f, 13.0f);
+		[loadingView addSublayer:loadingViewText];
+		
+		[self.view.layer addSublayer:loadingView];
+	}
+}
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
 	NSString *searchText = searchBar.text;
 	if (searchText.length > 0) {
-		[utils setSearchKeyword:searchText];
-		self.navigationItem.title = [NSString stringWithFormat:@"Searching for \"%@\"", searchText];
 		[searchBar resignFirstResponder];
-		
-		if (!loadingView) {
-			loadingView = [CALayer layer];
-			loadingView.backgroundColor = [UIColor colorWithWhite:0.0f alpha:0.6f].CGColor;
-			loadingView.cornerRadius = 6.0f;
-			loadingView.masksToBounds = YES;
-			loadingView.frame = CGRectMake(0.0f, 0.0f, 140.0f, 50.0f);
-			loadingView.frame = CHCenterRectInRect(loadingView.frame, self.view.bounds);
-			
-			CATextLayer *loadingViewText = [CATextLayer layer];
-			loadingViewText.font = @"Helvetica Neue Bold";
-			loadingViewText.fontSize = 20.0f;
-			loadingViewText.foregroundColor = [UIColor whiteColor].CGColor;
-			loadingViewText.string = @"Loading...";
-			loadingViewText.alignmentMode = kCAAlignmentCenter;
-			loadingViewText.frame = CGRectInset(loadingView.bounds, 0.0f, 13.0f);
-			[loadingView addSublayer:loadingViewText];
-			
-			[self.view.layer addSublayer:loadingView];
-		}
+		[self search:searchText];
 	}
 }
 
 - (void) addTweet:(Tweet*)t {
+	
+	UIWebView* webview = [[UIWebView alloc] initWithFrame:CGRectMake(0.0f, 44.0f, 500, 324)];
+	webview.frame = CHCenterRectInRect(webview.frame, self.view.bounds);
+
+	webview.delegate = self;
+	
+	NSURLRequest *requestObj = [NSURLRequest requestWithURL:t.permalink];
+	
+	//load the URL into the web view.
+	[webview loadRequest:requestObj];
+	
+	//add the web view to the content view
+	[self.view addSubview:webview];
+	/*
 	CALayer *tweetView;
 	tweetView = [CALayer layer];
 	tweetView.backgroundColor = [UIColor colorWithWhite:0.0f alpha:0.6f].CGColor;
@@ -90,11 +110,21 @@
 	tweetViewText.foregroundColor = [UIColor whiteColor].CGColor;
 	tweetViewText.string = t.content;
 	tweetViewText.alignmentMode = kCAAlignmentCenter;
-	tweetViewText.frame = CGRectInset(tweetView.bounds, 0.0f, 13.0f);
+	tweetViewText.frame = CGRectInset(tweetView.bounds, 50.0f, 13.0f);
 	[tweetView addSublayer:tweetViewText];
+		
+	UIImage *avatarImage = [[ImageLoader loadImageFromURL:t.avatar] retain];
+	CALayer *avatarLayer = [CALayer layer];
+	avatarLayer.contents = (id)avatarImage.CGImage;
+	avatarLayer.backgroundColor = [UIColor redColor].CGColor;
+	avatarLayer.frame = CGRectInset(tweetView.frame, 50.0f, 50.0f);
+	[tweetView addSublayer:avatarLayer];
 	
 	[self.view.layer addSublayer:tweetView];
 	
+
+	[avatarImage release];
+	*/
 }
 
 // delegate callback goes here
