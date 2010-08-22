@@ -5,6 +5,7 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+	#import <QuartzCore/QuartzCore.h>
 #endif
 
 #import <Availability.h>
@@ -13,3 +14,14 @@
 #warning "This project uses features only available in iPhone SDK 3.0 and later."
 #endif
 
+static inline CGRect CHCenterRectInRect(CGRect theRect, CGRect inRect) {
+	return CGRectMake(floorf(fabsf((inRect.size.width / 2.0f) - (theRect.size.width / 2.0f))),
+					  floorf(fabsf((inRect.size.height / 2.0f) - (theRect.size.height / 2.0f))), theRect.size.width, theRect.size.height);
+}
+
+
+static inline CGRect CHBounds(CGRect theRect) {
+	CGRect bounds = theRect;
+	bounds.origin = CGPointZero;
+	return bounds;
+}

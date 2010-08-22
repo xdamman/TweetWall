@@ -8,79 +8,63 @@
 
 #import "SocialFrameViewController.h"
 #import "TweetView.h"
+#import "CALayer+Additions.h"
 
 @implementation SocialFrameViewController
-
-
-
-/*
-// The designated initializer. Override to perform setup that is required before the view is loaded.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
-}
-*/
-
-
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	TweetView *tweetView = [self loadWithNibName:@"TweetView"];
+	
 	twitter = [[Twitter alloc] init];
 	utils = [[Utility alloc] init];
-	searchbar.text = @"#iosdevcamp";
-	[scrollView addSubview:tweetView];
+	
+	CGRect actualBounds = CGRectMake(0.0f, 0.0f, self.view.bounds.size.height, self.view.bounds.size.width); // the ipad sdk sucks and isn't able to figure out what orientation it's in at launch time, so we hardcode it
+	
+	UIImageView *backgroundLayer = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"space-bg.png"]];
+	backgroundLayer.contentMode = UIViewContentModeBottomLeft;
+	backgroundLayer.layer.anchorPoint = CGPointMake(0.0f, 0.0f);
+	backgroundLayer.layer.position = CGPointMake(0.0f, 0.0f);
+	[backgroundLayer.layer animateLayerToPosition:CGPointMake((-backgroundLayer.frame.size.width) + actualBounds.size.width, (-backgroundLayer.frame.size.height) + actualBounds.size.height) overDuration:75 repeats:YES reverseForRepeat:YES];
+	
+	[self.view addSubview:backgroundLayer];
+	[backgroundLayer release];
+	
+	UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 200.0f, 0.0f)];
+	searchBar.delegate = self;
+	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithCustomView:searchBar] autorelease];
+	[searchBar release];
 }
 
-- (id) loadWithNibName: (NSString *)nibName {
-	NSArray *array = [[NSBundle mainBundle] loadNibNamed:nibName owner:nil options:nil];
-	for (id obj in array) {
-		if ([obj isKindOfClass:[UIView class]]) {
-			return obj;
-		}
-	}
-	return nil;
-}
 
 
 // Ensure that the view controller supports rotation and that the split view can therefore show in both portrait and landscape.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    return YES;
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)iInterfaceOrientation {
+    return (iInterfaceOrientation == UIInterfaceOrientationLandscapeLeft || iInterfaceOrientation == UIInterfaceOrientationLandscapeRight);
 }
 
-- (void)didReceiveMemoryWarning {
-	// Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-	
-	// Release any cached data, images, etc that aren't in use.
+
+- (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
+	NSString *searchText = searchBar.text;
+	if (searchText.length > 0) {
+		self.navigationItem.title = [NSString stringWithFormat:@"Searching for \"%@\"", searchText];
+		[searchBar resignFirstResponder];	
+	}
 }
 
-- (void)viewDidUnload {
-	// Release any retained subviews of the main view.
-	// e.g. self.myOutlet = nil;
 
-}
-
-- (IBAction) clickButton {
-	NSLog(@"Click %@",searchbar.text);
-	NSArray *tweets = [utils getTwitListByKeyword:searchbar.text]; //[twitter searchByKeyword:searchbar.text limit:10];
-	
-	NSLog(@"tweets: %@",tweets);
-
-}
+//- (IBAction) clickButton {
+//	NSLog(@"Click %@",searchbar.text);
+//	NSArray *tweets = [utils getTwitListByKeyword:searchbar.text]; //[twitter searchByKeyword:searchbar.text limit:10];
+//	
+//	NSLog(@"tweets: %@",tweets);
+//
+//}
 
 
 - (void)dealloc {
-	[twitter dealloc];
+	[twitter release];
+	[utils release];
     [super dealloc];
 }
 
