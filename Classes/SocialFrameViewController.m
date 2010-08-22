@@ -34,6 +34,8 @@
 	searchBar.delegate = self;
 	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithCustomView:searchBar] autorelease];
 	[searchBar release];
+	
+	[self addTweet];
 }
 
 
@@ -72,7 +74,27 @@
 	}
 }
 
-
+- (void) addTweet {
+	CALayer *tweetView;
+	tweetView = [CALayer layer];
+	tweetView.backgroundColor = [UIColor colorWithWhite:0.0f alpha:0.6f].CGColor;
+	tweetView.cornerRadius = 6.0f;
+	tweetView.masksToBounds = YES;
+	tweetView.frame = CGRectMake(0.0f, 0.0f, 540.0f, 250.0f);
+	tweetView.frame = CHCenterRectInRect(tweetView.frame, self.view.bounds);
+	
+	CATextLayer *tweetViewText = [CATextLayer layer];
+	tweetViewText.font = @"Helvetica Neue Bold";
+	tweetViewText.fontSize = 20.0f;
+	tweetViewText.foregroundColor = [UIColor whiteColor].CGColor;
+	tweetViewText.string = @"This is my first tweet about #iOSDevCamp, awesome!";
+	tweetViewText.alignmentMode = kCAAlignmentCenter;
+	tweetViewText.frame = CGRectInset(tweetView.bounds, 0.0f, 13.0f);
+	[tweetView addSublayer:tweetViewText];
+	
+	[self.view.layer addSublayer:tweetView];
+	
+}
 // delegate callback goes here
 
 

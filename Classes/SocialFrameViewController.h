@@ -17,5 +17,7 @@
 	CALayer *loadingView;
 }
 
+- (void) addTweet;
+
 @end
 
