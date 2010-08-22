@@ -26,6 +26,7 @@
 	NSData *data = [NSData dataWithContentsOfURL:url];
 	UIImage *image = [[UIImage alloc] initWithData:data];
 	[ImageLoader saveImage:image withName:fileName];
+	[data release];
 	[image autorelease];
 	return image;
 }

@@ -10,8 +10,9 @@
 #import "Twitter.h"
 #import "Tweet.h"
 #import "Utility.h"
+#import "UIKit/UIWebView.h"
 
-@interface SocialFrameViewController : UIViewController <UISearchBarDelegate,UtilityDelegate> {
+@interface SocialFrameViewController : UIViewController <UISearchBarDelegate,UtilityDelegate,UIWebViewDelegate> {
 	Twitter *twitter;
 	Utility *utils;
 	Tweet *t;
@@ -20,6 +21,7 @@
 
 - (void) flipToNext;
 - (void) addTweet:(Tweet*)t;
+- (void) search:(NSString *)searchText;
 - (void) utilityDidFinishFirstFetch;
 
 @end
