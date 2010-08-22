@@ -22,25 +22,29 @@
 - (id) initWithDictionary:(NSDictionary *)tweetData {
 	if(self == [super init])
 	{
-		screenName	= [tweetData objectForKey:@"from_user"];
-		avatar		= [tweetData objectForKey:@"profile_image_url"];
-		content		= [tweetData objectForKey:@"text"];
+		screenName	= [[tweetData objectForKey:@"from_user"] retain];
+		avatar		= [[tweetData objectForKey:@"profile_image_url"] retain];
+		content		= [[tweetData objectForKey:@"text"] retain];
 		
 		NSDateFormatter *df = [[NSDateFormatter alloc] init];
 		NSString *dateString = [tweetData objectForKey:@"created_at"];
 
 		[df setDateFormat:@"EEE, d MMM yyyy HH:mm:ss Z"];
-		timestamp = [df dateFromString: dateString];
+		timestamp = [[df dateFromString: dateString] retain];
 				
 		[df release];
-		permalink	= [NSURL URLWithString:[NSString stringWithFormat:@"http://twitter.com/%@/statuses/%@",screenName,[tweetData objectForKey:@"id"]]];
+		permalink	= [[NSURL URLWithString:[NSString stringWithFormat:@"http://twitter.com/%@/statuses/%@",screenName,[tweetData objectForKey:@"id"]]] retain];
 
 	}
 	return self;
 }
 
+- (void)dealloc {
+	[super dealloc];
+}
+
 - (NSString *) description {
-	
+	//return [super description];
 	return [NSString stringWithFormat:@"\nscreenName:\t%@\ncontent:\t%@\ntimestamp:\t%@\nimage:\t%@\n",screenName,timestamp,content,image];
 }
 

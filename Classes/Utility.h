@@ -8,13 +8,30 @@
 
 #import <Foundation/Foundation.h>
 #import "Twitter.h"
+#import "Tweet.h"
+
+@protocol UtilityDelegate <NSObject>
+
+- (void) utilityDidFinishFirstFetch;
+
+@end
+
 
 @interface Utility : NSObject {
 	Twitter *twitter;
+	NSMutableArray *tweets;
+	int index;
+	NSString *keyword;
+	
+	id <UtilityDelegate> delegate;
 }
 
-- (NSArray*) getTwitListByKeyword:(NSString*)keyword;
+
+- (Tweet *) getNext;
+- (void) setSearchKeyword: (NSString *)aKeyword;
 
 
+@property (nonatomic, retain) NSString *keyword;
+@property (nonatomic, retain) id delegate;
 
 @end
