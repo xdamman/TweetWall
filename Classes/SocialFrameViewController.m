@@ -48,18 +48,32 @@
 	NSString *searchText = searchBar.text;
 	if (searchText.length > 0) {
 		self.navigationItem.title = [NSString stringWithFormat:@"Searching for \"%@\"", searchText];
-		[searchBar resignFirstResponder];	
+		[searchBar resignFirstResponder];
+		
+		if (!loadingView) {
+			loadingView = [CALayer layer];
+			loadingView.backgroundColor = [UIColor colorWithWhite:0.0f alpha:0.6f].CGColor;
+			loadingView.cornerRadius = 6.0f;
+			loadingView.masksToBounds = YES;
+			loadingView.frame = CGRectMake(0.0f, 0.0f, 140.0f, 50.0f);
+			loadingView.frame = CHCenterRectInRect(loadingView.frame, self.view.bounds);
+			
+			CATextLayer *loadingViewText = [CATextLayer layer];
+			loadingViewText.font = @"Helvetica Neue Bold";
+			loadingViewText.fontSize = 20.0f;
+			loadingViewText.foregroundColor = [UIColor whiteColor].CGColor;
+			loadingViewText.string = @"Loading...";
+			loadingViewText.alignmentMode = kCAAlignmentCenter;
+			loadingViewText.frame = CGRectInset(loadingView.bounds, 0.0f, 13.0f);
+			[loadingView addSublayer:loadingViewText];
+			
+			[self.view.layer addSublayer:loadingView];
+		}
 	}
 }
 
 
-//- (IBAction) clickButton {
-//	NSLog(@"Click %@",searchbar.text);
-//	NSArray *tweets = [utils getTwitListByKeyword:searchbar.text]; //[twitter searchByKeyword:searchbar.text limit:10];
-//	
-//	NSLog(@"tweets: %@",tweets);
-//
-//}
+// delegate callback goes here
 
 
 - (void)dealloc {

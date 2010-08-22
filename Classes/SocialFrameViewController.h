@@ -13,6 +13,8 @@
 @interface SocialFrameViewController : UIViewController <UISearchBarDelegate> {
 	Twitter *twitter;
 	Utility *utils;
+	
+	CALayer *loadingView;
 }
 
 @end
