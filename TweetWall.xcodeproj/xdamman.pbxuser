@@ -1349,6 +1349,16 @@
 		vrLen = 949;
 		vrLoc = 822;
 	};
+	F29DD6E31221AD4400B8F7BE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2B0045F12205DCE0055478E /* Tweet.m */;
+		name = "Tweet.m: 53";
+		rLen = 0;
+		rLoc = 1881;
+		rType = 0;
+		vrLen = 1026;
+		vrLoc = 931;
+	};
 	F2B0040C122054120055478E /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = F2CF8E371220439E00CDF2EE /* TweetWallAppDelegate.h */;
@@ -1402,9 +1412,9 @@
 	};
 	F2B0045F12205DCE0055478E /* Tweet.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1292, 1349}}";
-			sepNavSelRange = "{1682, 0}";
-			sepNavVisRange = "{822, 949}";
+			sepNavIntBoundsRect = "{{0, 0}, {1292, 1425}}";
+			sepNavSelRange = "{1881, 0}";
+			sepNavVisRange = "{931, 1026}";
 		};
 	};
 	F2B0046512205EC50055478E /* TweetView.h */ = {
@@ -1741,6 +1751,7 @@
 			F29DD6D61221A8F100B8F7BE /* PBXTextBookmark */ = F29DD6D61221A8F100B8F7BE /* PBXTextBookmark */;
 			F29DD6D71221A8F100B8F7BE /* PBXTextBookmark */ = F29DD6D71221A8F100B8F7BE /* PBXTextBookmark */;
 			F29DD6D81221AA3600B8F7BE /* PBXTextBookmark */ = F29DD6D81221AA3600B8F7BE /* PBXTextBookmark */;
+			F29DD6E31221AD4400B8F7BE /* PBXTextBookmark */ = F29DD6E31221AD4400B8F7BE /* PBXTextBookmark */;
 			F2B0040C122054120055478E = F2B0040C122054120055478E /* PBXTextBookmark */;
 			F2B00440122055E30055478E = F2B00440122055E30055478E /* PBXTextBookmark */;
 			F2B0045412205D5C0055478E = F2B0045412205D5C0055478E /* PBXTextBookmark */;
