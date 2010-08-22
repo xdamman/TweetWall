@@ -71,11 +71,19 @@
 			[loadingView addSublayer:loadingViewText];
 			
 			[self.view.layer addSublayer:loadingView];
+			[self onTimer];
 		}
 	}
 }
 
-- (void) addTweet:(Tweet*)t {
+- (void) flipToNext {
+	NSLog(@"Entering timer.");
+	t = [utils getNext];
+	NSLog(@"Next tweet: %@",t);
+	[self addTweet:t];
+}
+
+- (void) addTweet:(Tweet*)theTweet {
 	CALayer *tweetView;
 	tweetView = [CALayer layer];
 	tweetView.backgroundColor = [UIColor colorWithWhite:0.0f alpha:0.6f].CGColor;
@@ -88,7 +96,7 @@
 	tweetViewText.font = @"Helvetica Neue Bold";
 	tweetViewText.fontSize = 20.0f;
 	tweetViewText.foregroundColor = [UIColor whiteColor].CGColor;
-	tweetViewText.string = t.content;
+	tweetViewText.string = theTweet.content;
 	tweetViewText.alignmentMode = kCAAlignmentCenter;
 	tweetViewText.frame = CGRectInset(tweetView.bounds, 0.0f, 13.0f);
 	[tweetView addSublayer:tweetViewText];
@@ -99,10 +107,13 @@
 
 // delegate callback goes here
 - (void) utilityDidFinishFirstFetch {
+	
 	loadingView.hidden = TRUE;
-	Tweet *t = [utils getNext];
+	t = [utils getNext];
 	NSLog(@"Next tweet: %@",t);
 	[self addTweet:t];
+	
+	[NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(flipToNext) userInfo:nil repeats:YES];
 }
 
 

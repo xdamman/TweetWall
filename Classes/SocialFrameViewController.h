@@ -8,15 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "Twitter.h"
+#import "Tweet.h"
 #import "Utility.h"
 
 @interface SocialFrameViewController : UIViewController <UISearchBarDelegate,UtilityDelegate> {
 	Twitter *twitter;
 	Utility *utils;
-	
+	Tweet *t;
 	CALayer *loadingView;
 }
 
+- (void) flipToNext;
 - (void) addTweet:(Tweet*)t;
 - (void) utilityDidFinishFirstFetch;
 
