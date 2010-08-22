@@ -58,7 +58,7 @@
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 			</object>
 			<object class="IBUIViewController" id="578626022">
-				<string key="IBUINibName">SocialFrameViewController</string>
+				<string key="IBUINibName">TweetWallViewController</string>
 				<reference key="IBUISimulatedStatusBarMetrics" ref="456458906"/>
 				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
 					<int key="interfaceOrientation">1</int>
