@@ -17,6 +17,7 @@
 @end
 
 
+
 @interface Utility : NSObject {
 	Twitter *twitter;
 	NSMutableArray *tweets;

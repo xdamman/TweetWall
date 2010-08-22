@@ -59,12 +59,12 @@
 
 - (NSArray *)searchByScreenName:(NSString *)screenName since:(NSDate *)since until:(NSDate *)until limit:(int)limit
 {
-    return [self searchByKeyword:[NSString stringWithFormat:@"from:%@",screenName] since:since until:until limit:limit];
+    return [self searchByKeyword:[NSString stringWithFormat:@"from:%@",screenName] limit:limit];
 }
 
 - (NSArray *)searchImages:(NSString *)keyword since:(NSDate *)since until:(NSDate *)until limit:(int)limit
 {
-    return [self searchByKeyword:[NSString stringWithFormat:@"%@ AND (twitpic OR yfrog OR tweetphoto)",keyword] since:since until:until limit:limit];
+    return [self searchByKeyword:[NSString stringWithFormat:@"%@ AND (twitpic OR yfrog OR tweetphoto)",keyword] limit:limit];
 }
 
 - (NSArray *) processTweets:(NSDictionary *)tweetsData {

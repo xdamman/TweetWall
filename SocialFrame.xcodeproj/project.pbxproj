@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		57BEB9481220901500874EF1 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BEB9471220901500874EF1 /* Utility.m */; };
+		5D60B7381220A12B00A3A6BF /* space-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D60B7371220A12B00A3A6BF /* space-bg.png */; };
+		5D60B7951220A32300A3A6BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D60B7941220A32300A3A6BF /* QuartzCore.framework */; };
+		5D60B7A71220A38800A3A6BF /* CALayer+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60B7A61220A38800A3A6BF /* CALayer+Additions.m */; };
 		F2B0046012205DCE0055478E /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0045D12205DCE0055478E /* Twitter.m */; };
 		F2B0046112205DCE0055478E /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0045F12205DCE0055478E /* Tweet.m */; };
 		F2B0046712205EC50055478E /* TweetView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0046612205EC50055478E /* TweetView.m */; };
@@ -31,15 +34,16 @@
 		F2D76A22122047C50084F721 /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D76A16122047C50084F721 /* CJSONSerializer.m */; };
 		F2D76A23122047C50084F721 /* CSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D76A18122047C50084F721 /* CSerializedJSONData.m */; };
 		F2D76A24122047C50084F721 /* CDataScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D76A1A122047C50084F721 /* CDataScanner.m */; };
-		F2D76A2D122048280084F721 /* ApiController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D76A26122048280084F721 /* ApiController.m */; };
-		F2D76A2E122048280084F721 /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D76A28122048280084F721 /* Channel.m */; };
-		F2D76A2F122048280084F721 /* Pic.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D76A2A122048280084F721 /* Pic.m */; };
 		F2D76A30122048280084F721 /* ImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D76A2C122048280084F721 /* ImageLoader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		57BEB9461220901500874EF1 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
 		57BEB9471220901500874EF1 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+		5D60B7371220A12B00A3A6BF /* space-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "space-bg.png"; sourceTree = "<group>"; };
+		5D60B7941220A32300A3A6BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5D60B7A51220A38800A3A6BF /* CALayer+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Additions.h"; sourceTree = "<group>"; };
+		5D60B7A61220A38800A3A6BF /* CALayer+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Additions.m"; sourceTree = "<group>"; };
 		F2B0045C12205DCE0055478E /* Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
 		F2B0045D12205DCE0055478E /* Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
 		F2B0045E12205DCE0055478E /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
@@ -81,12 +85,6 @@
 		F2D76A18122047C50084F721 /* CSerializedJSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSerializedJSONData.m; sourceTree = "<group>"; };
 		F2D76A19122047C50084F721 /* CDataScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDataScanner.h; sourceTree = "<group>"; };
 		F2D76A1A122047C50084F721 /* CDataScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDataScanner.m; sourceTree = "<group>"; };
-		F2D76A25122048280084F721 /* ApiController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiController.h; sourceTree = "<group>"; };
-		F2D76A26122048280084F721 /* ApiController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiController.m; sourceTree = "<group>"; };
-		F2D76A27122048280084F721 /* Channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
-		F2D76A28122048280084F721 /* Channel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Channel.m; sourceTree = "<group>"; };
-		F2D76A29122048280084F721 /* Pic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pic.h; sourceTree = "<group>"; };
-		F2D76A2A122048280084F721 /* Pic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pic.m; sourceTree = "<group>"; };
 		F2D76A2B122048280084F721 /* ImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLoader.h; sourceTree = "<group>"; };
 		F2D76A2C122048280084F721 /* ImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLoader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,12 +97,21 @@
 				F2CF8E2B1220439E00CDF2EE /* UIKit.framework in Frameworks */,
 				F2CF8E2D1220439E00CDF2EE /* Foundation.framework in Frameworks */,
 				F2CF8E2F1220439E00CDF2EE /* CoreGraphics.framework in Frameworks */,
+				5D60B7951220A32300A3A6BF /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D60B7361220A12B00A3A6BF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5D60B7371220A12B00A3A6BF /* space-bg.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		F2CF8E181220439E00CDF2EE = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +136,8 @@
 				F2B0046612205EC50055478E /* TweetView.m */,
 				57BEB9461220901500874EF1 /* Utility.h */,
 				57BEB9471220901500874EF1 /* Utility.m */,
+				5D60B7A51220A38800A3A6BF /* CALayer+Additions.h */,
+				5D60B7A61220A38800A3A6BF /* CALayer+Additions.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -145,6 +154,7 @@
 		F2CF8E211220439E00CDF2EE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5D60B7361220A12B00A3A6BF /* Images */,
 				F2CF8E301220439E00CDF2EE /* SocialFrame-Info.plist */,
 				F2CF8E321220439E00CDF2EE /* InfoPlist.strings */,
 				F2CF8E3A1220439E00CDF2EE /* MainWindow.xib */,
@@ -160,6 +170,7 @@
 				F2CF8E2A1220439E00CDF2EE /* UIKit.framework */,
 				F2CF8E2C1220439E00CDF2EE /* Foundation.framework */,
 				F2CF8E2E1220439E00CDF2EE /* CoreGraphics.framework */,
+				5D60B7941220A32300A3A6BF /* QuartzCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -214,12 +225,6 @@
 				F2B0045D12205DCE0055478E /* Twitter.m */,
 				F2B0045E12205DCE0055478E /* Tweet.h */,
 				F2B0045F12205DCE0055478E /* Tweet.m */,
-				F2D76A25122048280084F721 /* ApiController.h */,
-				F2D76A26122048280084F721 /* ApiController.m */,
-				F2D76A27122048280084F721 /* Channel.h */,
-				F2D76A28122048280084F721 /* Channel.m */,
-				F2D76A29122048280084F721 /* Pic.h */,
-				F2D76A2A122048280084F721 /* Pic.m */,
 				F2D76A2B122048280084F721 /* ImageLoader.h */,
 				F2D76A2C122048280084F721 /* ImageLoader.m */,
 			);
@@ -279,6 +284,7 @@
 				F2CF8E3C1220439E00CDF2EE /* MainWindow.xib in Resources */,
 				F2CF8E421220439E00CDF2EE /* SocialFrameViewController.xib in Resources */,
 				F2B0046912205ED20055478E /* TweetView.xib in Resources */,
+				5D60B7381220A12B00A3A6BF /* space-bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,14 +308,12 @@
 				F2D76A22122047C50084F721 /* CJSONSerializer.m in Sources */,
 				F2D76A23122047C50084F721 /* CSerializedJSONData.m in Sources */,
 				F2D76A24122047C50084F721 /* CDataScanner.m in Sources */,
-				F2D76A2D122048280084F721 /* ApiController.m in Sources */,
-				F2D76A2E122048280084F721 /* Channel.m in Sources */,
-				F2D76A2F122048280084F721 /* Pic.m in Sources */,
 				F2D76A30122048280084F721 /* ImageLoader.m in Sources */,
 				F2B0046012205DCE0055478E /* Twitter.m in Sources */,
 				F2B0046112205DCE0055478E /* Tweet.m in Sources */,
 				F2B0046712205EC50055478E /* TweetView.m in Sources */,
 				57BEB9481220901500874EF1 /* Utility.m in Sources */,
+				5D60B7A71220A38800A3A6BF /* CALayer+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +355,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
