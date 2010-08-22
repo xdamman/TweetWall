@@ -9,22 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "Twitter.h"
 #import "Utility.h"
-#import "Tweet.h"
 
-@interface SocialFrameViewController : UIViewController <UtilityDelegate> {
-	IBOutlet UIButton *playBtn;
-	IBOutlet UIToolbar *toolbar;
-	IBOutlet UILabel *label1;
-	IBOutlet UISearchBar *searchbar;
-	IBOutlet UIScrollView *scrollView;
-	
+@interface SocialFrameViewController : UIViewController <UISearchBarDelegate> {
 	Twitter *twitter;
-	Utility *u;
-	Tweet *tweet;
+	Utility *utils;
+	
+	CALayer *loadingView;
 }
 
-- (IBAction) clickButton;
-- (id) loadWithNibName: (NSString *)nibName;
-
 @end
-
