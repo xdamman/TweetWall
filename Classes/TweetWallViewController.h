@@ -18,6 +18,7 @@
 	Tweet *t;
 	CALayer *loadingView;
 	NSTimer *rat;
+	UIView *canvas;
 	
 }
 
