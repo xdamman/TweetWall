@@ -17,6 +17,8 @@
 	Utility *utils;
 	Tweet *t;
 	CALayer *loadingView;
+	NSTimer *rat;
+	
 }
 
 - (void) flipToNext;

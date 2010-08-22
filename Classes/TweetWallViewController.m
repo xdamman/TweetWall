@@ -101,7 +101,9 @@
 }
 
 - (void) addTweet:(Tweet*)tweet {
-	
+
+
+	[UIView beginAnimations:nil context:nil];
 	
 	// textView for Tweet text
 	CGRect tweetFrame = CGRectMake(200.0, 300.0, 600.0, 300.0);
@@ -111,6 +113,7 @@
 	[self.view addSubview:textView];
 	// end textview
 	
+		
 	// begin uilabel for user name
 	CGRect labelFrame = CGRectMake(300.0, 50.0, 400.0, 50.0);	
 	UILabel *userName = [[UILabel alloc] initWithFrame:labelFrame];
@@ -143,6 +146,14 @@
 	[self.view addSubview:webview];
 	 */
 	
+	[UIView setAnimationDuration:2.75];
+	[UIView setAnimationDelegate:self];
+	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.view cache:YES];
+	//[textView removeFromSuperview];
+	[UIView commitAnimations];
+	
+	
+	
 }
 
 - (void) flipToNext {
@@ -161,9 +172,10 @@
 	NSLog(@"Next tweet: %@",t);
 	[self addTweet:t];
 	
-	[NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(flipToNext) userInfo:nil repeats:YES];
+	if (!rat) {
+		rat = [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(flipToNext) userInfo:nil repeats:YES];
+	}
 }
-
 
 - (void)dealloc {
 	[twitter release];
