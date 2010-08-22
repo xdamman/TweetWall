@@ -26,7 +26,7 @@
 	backgroundLayer.contentMode = UIViewContentModeBottomLeft;
 	backgroundLayer.layer.anchorPoint = CGPointMake(0.0f, 0.0f);
 	backgroundLayer.layer.position = CGPointMake(0.0f, 0.0f);
-	[backgroundLayer.layer animateLayerToPosition:CGPointMake((-backgroundLayer.frame.size.width) + actualBounds.size.width, (-backgroundLayer.frame.size.height) + actualBounds.size.height) overDuration:75 repeats:YES reverseForRepeat:YES];
+	//[backgroundLayer.layer animateLayerToPosition:CGPointMake((-backgroundLayer.frame.size.width) + actualBounds.size.width, (-backgroundLayer.frame.size.height) + actualBounds.size.height) overDuration:120 repeats:YES reverseForRepeat:YES];
 	
 	[self.view addSubview:backgroundLayer];
 	[backgroundLayer release];
@@ -105,6 +105,73 @@
 
 	[UIView beginAnimations:nil context:nil];
 	
+	// create imageView for tweet text bubble background	
+	CGRect Imageframe2 = CGRectMake(20.0, 196.0, 990.0, 360.0);
+	UIImageView *imageView2 = [[UIImageView alloc] initWithFrame:Imageframe2];
+	NSString *fileLocation = [[NSBundle mainBundle] pathForResource:@"large-speech-bubble" ofType:@"png"];
+	NSData *imageData = [NSData dataWithContentsOfFile:fileLocation];	
+	[UIImage imageWithData:imageData];
+	imageView2.image = [UIImage imageWithData:imageData];
+	[self.view addSubview:imageView2];
+	// end bubble background
+	
+	
+	// create imageView for user image background	
+	CGRect Imageframe3 = CGRectMake(20.0, 562.0, 600.0, 164.0);
+	UIImageView *imageView3 = [[UIImageView alloc] initWithFrame:Imageframe3];
+	NSString *fileLocation3 = [[NSBundle mainBundle] pathForResource:@"user-block-bg" ofType:@"png"];
+	NSData *imageData3 = [NSData dataWithContentsOfFile:fileLocation3];	
+	[UIImage imageWithData:imageData3];
+	imageView3.image = [UIImage imageWithData:imageData3];
+	[self.view addSubview:imageView3];
+	// end bubble background
+	
+	
+	// textView for Tweet text
+	if(!textView) {
+		CGRect tweetFrame = CGRectMake(40.0, 210.0, 950.0, 250.0);
+		textView = [[UITextView alloc] initWithFrame:tweetFrame];
+	}
+	
+	textView.text = tweet.content;
+	textView.font = [UIFont fontWithName:@"Arial" size:44.0f];
+	UIColor *bcolor = [[UIColor alloc] initWithRed:0.0 green:0.0 blue:0.0 alpha:0.0];
+	[textView setBackgroundColor: bcolor];
+	[self.view addSubview:textView];
+	// end textview
+	
+	// begin uilabel for user name
+	if(!screenNameView) {
+		CGRect labelFrame = CGRectMake(230.0, 580.0, 300.0, 50.0);	
+		screenNameView = [[UILabel alloc] initWithFrame:labelFrame];
+	}
+	screenNameView.text = tweet.screenName;
+	screenNameView.font = [UIFont fontWithName:@"Arial" size:34.0f];
+	[screenNameView setBackgroundColor: bcolor];
+	[self.view addSubview:screenNameView];	
+	// end uilable
+	
+	
+/*	
+	// create imageView
+	NSURL *url = [NSURL URLWithString:[tweet objectForKey:@"profile_image_url"]];
+	NSData *data = [NSData dataWithContentsOfURL:url];
+	CGRect Imageframe = CGRectMake(36.0, 574.0, 130.0, 130.0);
+	UIImageView *imageView = [[UIImageView alloc] initWithFrame:Imageframe];
+	imageView.image = [UIImage imageWithData:data];
+	[self.view addSubview:imageView];
+	// end imageView
+*/	
+	
+	// create imageView
+	UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(36.0, 574.0, 130.0, 130.0)];
+	imageView.image = [[ImageLoader loadImageFromURL:tweet.avatar] retain];
+	[self.view addSubview:imageView];
+	// end imageView
+	
+	[bcolor release];
+	
+/*	
 	// textView for Tweet text
 	CGRect tweetFrame = CGRectMake(200.0, 300.0, 600.0, 300.0);
 	UITextView *textView = [[UITextView alloc] initWithFrame:tweetFrame];

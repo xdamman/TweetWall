@@ -18,7 +18,9 @@
 	Tweet *t;
 	CALayer *loadingView;
 	NSTimer *rat;
-	UIView *canvas;
+	UIView *previousTweetView;
+	UITextView *textView;
+	UITextView *screenNameView;
 	
 }
 
