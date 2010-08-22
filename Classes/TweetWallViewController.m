@@ -148,7 +148,7 @@
 	
 	[UIView setAnimationDuration:2.75];
 	[UIView setAnimationDelegate:self];
-	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self.view cache:YES];
+	[UIView setAnimationTransition:UIViewAnimationTransitionCurlUp forView:self.view cache:YES];
 	//[textView removeFromSuperview];
 	[UIView commitAnimations];
 	
