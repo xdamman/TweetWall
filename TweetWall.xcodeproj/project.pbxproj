@@ -276,6 +276,7 @@
 			};
 			buildConfigurationList = F2CF8E1D1220439E00CDF2EE /* Build configuration list for PBXProject "TweetWall" */;
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -393,8 +394,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				PROVISIONING_PROFILE = "BB2A023B-6FB7-4F51-BDBC-FA408C2679A0";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BB2A023B-6FB7-4F51-BDBC-FA408C2679A0";
+				PROVISIONING_PROFILE = "C19B1C52-50A0-47A3-9F94-5F53A2BF3A90";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C19B1C52-50A0-47A3-9F94-5F53A2BF3A90";
 				SDKROOT = iphoneos3.2;
 				TARGETED_DEVICE_FAMILY = 2;
 			};

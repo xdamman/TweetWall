@@ -3,7 +3,7 @@
 //  TweetWall
 //
 //  Created by Xavier Damman on 8/21/10.
-//  Copyright (c) 2010 Commentag SPRL. All rights reserved.
+//  Copyright (c) 2010 Xavier Damman. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

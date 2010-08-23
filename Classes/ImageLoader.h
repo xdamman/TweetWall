@@ -3,7 +3,7 @@
 //  PicMill
 //
 //  Created by Xavier Damman on 5/22/10.
-//  Copyright 2010 Commentag SPRL. All rights reserved.
+//  Copyright 2010 Xavier Damman. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

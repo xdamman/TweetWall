@@ -1,0 +1,52 @@
+TweetWall
+---------
+
+TweetWall is an iPad app to display a slideshow of tweets based on an hashtag (or any search query).
+Tweets are shown one at a time. It's great for any event using an external projector/TV or as a PhotoFrame.
+
+This project has been done during #iOSDevCamp (http://iosdevcamp.org), Aug 20-22, 2010.
+
+Initial contributors are:
+
+Code:
+- Christian Sanz (chrissanz at gmail)
+- Stefan (stefan at makeliferock dot com) 
+- Xavier Damman (xdamman at gmail)
+
+Design:
+- Joshua Mauldin (hello at joshuamauldin.com>
+- Amir Khella (akhella at gmail)
+
+
+TODO
+----
+
+- Fix memory leaks
+- Add a different view when the tweet contains a TwitPic/yFrog
+- Change transitions with Kens Burns effect
+
+
+LICENSE
+-------
+
+TweetWall is distributed as an OpenSource project, MIT/Beer License (ie: do what you want to do but keep attributions and if you run into us in the Bay Area, you are entitled to pay us a beeri at the closest Bar).
+
+Copyright (c) <2010> 
+
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.

@@ -3,7 +3,7 @@
 //  TweetWall
 //
 //  Created by Xavier Damman on 8/21/10.
-//  Copyright (c) 2010 Commentag SPRL. All rights reserved.
+//  Copyright (c) 2010 Xavier Damman. All rights reserved.
 //
 
 #import "TweetWallViewController.h"
@@ -33,7 +33,7 @@
 	
 	UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 200.0f, 0.0f)];
 	searchBar.delegate = self;
-	NSString *searchText = @"#iosdevcamp twitpic";
+	NSString *searchText = @"#iosdevcamp";
 	searchBar.text = searchText;
 	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithCustomView:searchBar] autorelease];
 	[self search:searchText];
@@ -198,7 +198,7 @@
 	// end imageView
 	
 	
-	/*
+	
 	UIWebView* webview = [[UIWebView alloc] initWithFrame:CGRectMake(0.0f, 44.0f, 500, 324)];
 	webview.frame = CHCenterRectInRect(webview.frame, self.view.bounds);
 
