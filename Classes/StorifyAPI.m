@@ -21,6 +21,8 @@
 
 @implementation StorifyAPI
 
+@synthesize title;
+
 - (id)init
 {
 	[super init];
@@ -31,13 +33,15 @@
 
 - (NSArray *)getStoryElements:(NSString *)permalink
 {	
-	NSString *queryString = [[NSString stringWithFormat:@"%@.json",permalink] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+	NSString *queryString = [[NSString stringWithFormat:@"http://preview.storify.com/%@.json",permalink] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
 	
 	NSLog(@"Fetching %@",queryString);
 	
 	NSDictionary *storyData = [JSONLoader loadJsonFromURL:[NSURL URLWithString:queryString] withMaxCacheInSeconds:5];
 	
-	NSArray *story = [[self processTweets:storyData] retain];
+	title = [[[storyData objectForKey:@"root"] objectForKey:@"title"] retain];
+	NSLog(@"TITLE: %@, story: %@",title,storyData);
+	NSArray *story = [[self processElements:storyData] retain];
 	return [story autorelease];
 }
 
@@ -64,10 +68,12 @@
 	NSMutableArray *elements = [[NSMutableArray alloc] init];
 	
 	while ((t = [enumerator nextObject])) {
-		Tweet *tweet = [[Tweet alloc] initWithDictionary:t];
-		NSLog(@"Story Element: %@",tweet);
-		[elements addObject:tweet];
-		[tweet release];
+		if ([[t objectForKey:@"source"] isEqualToString:@"twitter"]) {
+			TweetElement *tweet = [[TweetElement alloc] initWithDictionary:t];
+			NSLog(@"Story Element: %@",tweet);
+			[elements addObject:tweet];
+			[tweet release];
+		}
 	}
 	
 	[elementsData release];
@@ -77,6 +83,7 @@
 }
 
 - (void) dealloc {
+	[title release];
 	[super dealloc];
 }
 

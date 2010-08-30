@@ -13,6 +13,8 @@
 		5D60B7A71220A38800A3A6BF /* CALayer+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60B7A61220A38800A3A6BF /* CALayer+Additions.m */; };
 		F20DEC84122B565D004A0FEB /* StorifyAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F20DEC83122B565D004A0FEB /* StorifyAPI.m */; };
 		F20DECA4122B66C3004A0FEB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F20DECA3122B66C3004A0FEB /* icon.png */; };
+		F20DECA9122B6969004A0FEB /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = F20DECA8122B6969004A0FEB /* DataSource.m */; };
+		F20DECF5122B834B004A0FEB /* TweetElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F20DECF4122B834B004A0FEB /* TweetElement.m */; };
 		F22C4DC51223542B00E509FC /* JSONLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F22C4DC41223542B00E509FC /* JSONLoader.m */; };
 		F22C4DC81223544E00E509FC /* Loader.m in Sources */ = {isa = PBXBuildFile; fileRef = F22C4DC71223544E00E509FC /* Loader.m */; };
 		F29DD6BC1221A70B00B8F7BE /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = F29DD6BB1221A70B00B8F7BE /* RegexKitLite.m */; };
@@ -55,6 +57,10 @@
 		F20DEC82122B565D004A0FEB /* StorifyAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorifyAPI.h; sourceTree = "<group>"; };
 		F20DEC83122B565D004A0FEB /* StorifyAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorifyAPI.m; sourceTree = "<group>"; };
 		F20DECA3122B66C3004A0FEB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F20DECA7122B6969004A0FEB /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		F20DECA8122B6969004A0FEB /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		F20DECF3122B834B004A0FEB /* TweetElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetElement.h; sourceTree = "<group>"; };
+		F20DECF4122B834B004A0FEB /* TweetElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetElement.m; sourceTree = "<group>"; };
 		F22C4DC31223542B00E509FC /* JSONLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONLoader.h; sourceTree = "<group>"; };
 		F22C4DC41223542B00E509FC /* JSONLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONLoader.m; sourceTree = "<group>"; };
 		F22C4DC61223544E00E509FC /* Loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loader.h; sourceTree = "<group>"; };
@@ -150,6 +156,8 @@
 		F2CF8E1F1220439E00CDF2EE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F20DECA7122B6969004A0FEB /* DataSource.h */,
+				F20DECA8122B6969004A0FEB /* DataSource.m */,
 				F29DD6BA1221A70B00B8F7BE /* RegexKitLite.h */,
 				F29DD6BB1221A70B00B8F7BE /* RegexKitLite.m */,
 				F2D76A32122048320084F721 /* backend */,
@@ -254,6 +262,8 @@
 				F2B0045D12205DCE0055478E /* Twitter.m */,
 				F2B0045E12205DCE0055478E /* Tweet.h */,
 				F2B0045F12205DCE0055478E /* Tweet.m */,
+				F20DECF3122B834B004A0FEB /* TweetElement.h */,
+				F20DECF4122B834B004A0FEB /* TweetElement.m */,
 				F2D76A2B122048280084F721 /* ImageLoader.h */,
 				F2D76A2C122048280084F721 /* ImageLoader.m */,
 				F22C4DC31223542B00E509FC /* JSONLoader.h */,
@@ -355,6 +365,8 @@
 				F22C4DC51223542B00E509FC /* JSONLoader.m in Sources */,
 				F22C4DC81223544E00E509FC /* Loader.m in Sources */,
 				F20DEC84122B565D004A0FEB /* StorifyAPI.m in Sources */,
+				F20DECA9122B6969004A0FEB /* DataSource.m in Sources */,
+				F20DECF5122B834B004A0FEB /* TweetElement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

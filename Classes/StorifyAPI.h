@@ -9,17 +9,18 @@
 #import <Foundation/Foundation.h>
 #import "CJSONDeserializer.h"
 #import "JSONLoader.h"
-#import "Tweet.h"
+#import "TweetElement.h"
 
 
 @interface StorifyAPI : NSObject {
-
-	
+	NSString *title;
 }
 
 - (NSArray *)getStoryElements:(NSString *)permalink;
 - (NSDictionary *)getUserInfo:(NSString *)screenName;
 - (NSArray *) processElements:(NSDictionary *)elementsData;
+
+@property (nonatomic,retain) NSString *title;
 
 
 @end

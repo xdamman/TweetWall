@@ -282,13 +282,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>36</integer>
-									<integer>31</integer>
+									<integer>20</integer>
+									<integer>6</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 381}, {269, 660}}</string>
+							<string>{{0, 0}, {269, 660}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -318,12 +319,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>TweetWall-Info.plist</string>
+								<string>StorifyAPI.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -331,11 +334,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>TweetWall-Info.plist</string>
+										<string>StorifyAPI.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>F20DECA2122B668A004A0FEB</string>
+										<string>F20DEE1A122B94F5004A0FEB</string>
 										<key>history</key>
 										<array>
 											<string>F2B0045412205D5C0055478E</string>
@@ -346,7 +349,6 @@
 											<string>F29DD6271221963A00B8F7BE</string>
 											<string>F29DD65B12219AC900B8F7BE</string>
 											<string>F29DD65E12219AC900B8F7BE</string>
-											<string>F29DD6FA1221B19300B8F7BE</string>
 											<string>F2F4707B1221C2A800AF5FC1</string>
 											<string>F22C4DA11223518000E509FC</string>
 											<string>F22C4DDE12235AA600E509FC</string>
@@ -354,23 +356,29 @@
 											<string>F22C4DE312235AA600E509FC</string>
 											<string>F22C4E2312235C9A00E509FC</string>
 											<string>F22C4E2512235C9A00E509FC</string>
-											<string>F22C5060122430DC00E509FC</string>
 											<string>F22C50711224336800E509FC</string>
 											<string>F22C50721224336800E509FC</string>
-											<string>F22C50881224371400E509FC</string>
-											<string>F22C50AF1224408F00E509FC</string>
-											<string>F22C50C41224434100E509FC</string>
-											<string>F22C511A12244F0800E509FC</string>
-											<string>F22C511B12244F0800E509FC</string>
-											<string>F22C512112244F7700E509FC</string>
-											<string>F20DEC95122B65C0004A0FEB</string>
-											<string>F20DEC96122B65C0004A0FEB</string>
 											<string>F20DEC97122B65C0004A0FEB</string>
-											<string>F20DEC98122B65C0004A0FEB</string>
-											<string>F20DEC99122B65C0004A0FEB</string>
 											<string>F20DECA0122B668A004A0FEB</string>
 											<string>F20DECA1122B668A004A0FEB</string>
-											<string>F2F470551221C15A00AF5FC1</string>
+											<string>F20DECCB122B8135004A0FEB</string>
+											<string>F20DECCC122B8135004A0FEB</string>
+											<string>F20DECCD122B8135004A0FEB</string>
+											<string>F20DECCE122B8135004A0FEB</string>
+											<string>F20DED32122B8940004A0FEB</string>
+											<string>F20DED4B122B8A23004A0FEB</string>
+											<string>F20DED57122B8AA3004A0FEB</string>
+											<string>F20DED59122B8AA3004A0FEB</string>
+											<string>F20DED89122B8D54004A0FEB</string>
+											<string>F20DEDDF122B92DB004A0FEB</string>
+											<string>F20DEDE0122B92DB004A0FEB</string>
+											<string>F20DEDE1122B92DB004A0FEB</string>
+											<string>F20DEDE2122B92DB004A0FEB</string>
+											<string>F20DEDE5122B92DB004A0FEB</string>
+											<string>F20DEE09122B942E004A0FEB</string>
+											<string>F20DEE13122B9495004A0FEB</string>
+											<string>F20DEE14122B9495004A0FEB</string>
+											<string>F20DEE0E122B9460004A0FEB</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -568,6 +576,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>F20DED2A122B86CF004A0FEB</string>
+		<string>F20DED25122B86A7004A0FEB</string>
+		<string>F20DED1F122B86A4004A0FEB</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>F241DE75122045BF00C2ABFE</string>
 		<string>/Users/xdamman/Dropbox/iPad/TweetWall/TweetWall.xcodeproj</string>
 	</array>
@@ -588,12 +601,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Loader.m</string>
+								<string>StorifyAPI.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -610,8 +625,6 @@
 							<string>227pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -773,13 +786,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>F22C4C9D1222CEA400E509FC</string>
+				<string>F20DECB8122B6BEF004A0FEB</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>F22C4C9E1222CEA400E509FC</string>
-				<string>F22C4C9F1222CEA400E509FC</string>
-				<string>F22C4CA01222CEA400E509FC</string>
-				<string>F22C4CA11222CEA400E509FC</string>
-				<string>F22C4CA21222CEA400E509FC</string>
+				<string>F20DECB9122B6BEF004A0FEB</string>
+				<string>F20DECBA122B6BEF004A0FEB</string>
+				<string>F20DECBB122B6BEF004A0FEB</string>
+				<string>F20DECBC122B6BEF004A0FEB</string>
+				<string>F20DECBD122B6BEF004A0FEB</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -935,7 +948,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>F22C4CBE1223217700E509FC</string>
+				<string>F20DECBE122B6BEF004A0FEB</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -945,7 +958,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
@@ -1196,8 +1209,8 @@
 			<true/>
 			<key>TableOfContents</key>
 			<array>
-				<string>F22C4E6012235F1200E509FC</string>
-				<string>F22C4E6112235F1200E509FC</string>
+				<string>F20DED1F122B86A4004A0FEB</string>
+				<string>F20DED20122B86A4004A0FEB</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
 				<string>1CA1AED706398EBD00589147</string>
 			</array>
@@ -1206,7 +1219,7 @@
 			<key>WindowString</key>
 			<string>21 346 744 409 0 0 1280 778 </string>
 			<key>WindowToolGUID</key>
-			<string>F22C4E6012235F1200E509FC</string>
+			<string>F20DED1F122B86A4004A0FEB</string>
 			<key>WindowToolIsVisible</key>
 			<false/>
 		</dict>

@@ -19,8 +19,8 @@
 	[ImageLoader clean];
 
 	twitter = [[Twitter alloc] init];
-	utils = [[Utility alloc] init];
-	utils.delegate = self;
+	datasource = [[DataSource alloc] init];
+	datasource.delegate = self;
 	
 	//CGRect actualBounds = CGRectMake(0.0f, 0.0f, self.view.bounds.size.height, self.view.bounds.size.width); // the ipad sdk sucks and isn't able to figure out what orientation it's in at launch time, so we hardcode it
 	
@@ -33,9 +33,9 @@
 	[self.view addSubview:backgroundLayer];
 	[backgroundLayer release];
 	
-	UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 200.0f, 0.0f)];
+	UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 300.0f, 0.0f)];
 	searchBar.delegate = self;
-	NSString *searchText = @"\"I'm happy\"";
+	NSString *searchText = @"xdamman/flipboard";
 	searchBar.text = searchText;
 	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithCustomView:searchBar] autorelease];
 	[self search:searchText];
@@ -50,7 +50,8 @@
 }
 
 - (void) search:(NSString *)searchText {
-	[utils setSearchKeyword:searchText];
+	[datasource getStory:searchText];
+
 	self.navigationItem.title = [NSString stringWithFormat:@"Searching for \"%@\"", searchText];
 	if (!loadingView) {
 		loadingView = [CALayer layer];
@@ -75,7 +76,7 @@
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
 	NSString *searchText = searchBar.text;
 	if (searchText.length > 0) {
-		[utils setSearchKeyword:searchText];
+		[datasource getStory:searchText];
 		self.navigationItem.title = [NSString stringWithFormat:@"Searching for \"%@\"", searchText];
 		[searchBar resignFirstResponder];
 		
@@ -101,10 +102,16 @@
 	}
 }
 
-- (void) addTweet:(Tweet*)tweet {
+- (void) flipToNext {
+	TweetElement *tweet = [[datasource getNext] retain];
 
+	if(!tweet) {
+		NSLog(@"ERROR: no valid tweet returned by datasource getNext");
+		return;
+	}
+	
 	[UIView beginAnimations:nil context:nil];
-
+	NSLog(@"Adding tweet %@",tweet);
 	UIImage *backgroundImage;
 	if (tweet.user) {
 		NSString *backgroundImageUrl = [tweet.user objectForKey:@"profile_background_image_url"];
@@ -209,28 +216,23 @@
 	
 	previousTweetView = tweetView;
 	
-}
-
-- (void) flipToNext {
-	t = [utils getNext];
-	if(t)
-		[self addTweet:t];
+	[tweet release];
+	
 }
 
 
 // delegate callback goes here
-- (void) searchTwitterDidFinishSuccessfully {	
+- (void) fetchDidFinishSuccessfully {	
 	loadingView.hidden = TRUE;
-	t = [utils getNext];
-	NSLog(@"Next tweet: %@",t);
-	[self addTweet:t];
+	self.navigationItem.title = datasource.title;
+	[self flipToNext];
 	
 	if (!rat) {
 		rat = [NSTimer scheduledTimerWithTimeInterval:6 target:self selector:@selector(flipToNext) userInfo:nil repeats:YES];
 	}
 }
 
-- (void) searchTwitterDidFinishWithNoResults {	
+- (void) fetchDidFinishWithNoResults {	
 	loadingView.hidden = FALSE;
 	loadingViewText.string = @"Couldn't connect\nto Twitter.com";
 }
@@ -277,7 +279,7 @@
 
 	[backgroundLayer release];
 	[twitter release];
-	[utils release];
+	[datasource release];
     [super dealloc];
 }
 

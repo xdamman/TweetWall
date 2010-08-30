@@ -8,14 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "Twitter.h"
-#import "Tweet.h"
-#import "Utility.h"
+#import "TweetElement.h"
+#import "DataSource.h"
 #import "UIKit/UIWebView.h"
 
-@interface TweetWallViewController : UIViewController <UISearchBarDelegate,UtilityDelegate,UIWebViewDelegate> {
+@interface TweetWallViewController : UIViewController <UISearchBarDelegate,DataSourceDelegate,UIWebViewDelegate> {
 	Twitter *twitter;
-	Utility *utils;
-	Tweet *t;
+	DataSource *datasource;
+	TweetElement *t;
 	UIImageView *backgroundLayer;
 	CALayer *loadingView;
 	CATextLayer *loadingViewText;
@@ -27,9 +27,10 @@
 }
 
 - (void) flipToNext;
-- (void) addTweet:(Tweet*)t;
 - (void) search:(NSString *)searchText;
-- (void) searchTwitterDidFinishSuccessfully;
-- (void) searchTwitterDidFinishWithNoResults;	
+//- (void) searchTwitterDidFinishSuccessfully;
+//- (void) searchTwitterDidFinishWithNoResults;	
+- (void) fetchDidFinishSuccessfully;
+- (void) fetchDidFinishWithNoResults;	
 - (UIColor *) colorWithHexString: (NSString *) stringToConvert;
 @end
