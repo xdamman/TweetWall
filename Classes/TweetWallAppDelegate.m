@@ -27,12 +27,11 @@
     [window addSubview:navController.view];
     [window makeKeyAndVisible];
 	[navController release];
-    
+	
 	return YES;
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
-
     // Save data if appropriate.
 }
 

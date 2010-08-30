@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "CJSONDeserializer.h"
+#import "JSONLoader.h"
 #import "Tweet.h"
 
 @interface Twitter : NSObject

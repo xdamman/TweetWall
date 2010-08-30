@@ -43,7 +43,8 @@
 		
 		NSArray *matchedURLsArray = [content componentsMatchedByRegex:urlRegex];
 		//NSLog(@"URLs found in da tweet: %@",matchedURLsArray);
-		for (NSString *u in matchedURLsArray) {
+		NSString *u;
+		for (u in matchedURLsArray) {
 				if ([[u substringToIndex:14] isEqualToString:@"http://twitpic"]) {
 					NSString *imageUrl = [NSString stringWithFormat:@"http://twitpic.com/show/large/%@",[u substringFromIndex:19]];
 					image = [[NSURL URLWithString:imageUrl] retain];
@@ -65,10 +66,10 @@
 
 - (void) getUserInfoThread {
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-	NSLog(@"New thread");
+	
 	Twitter *twitter = [[Twitter alloc] init];
-	user = [twitter getUserInfo:self.screenName];
-	NSLog(@"Fetching user %@: %@",self.screenName,user);
+	user = [[twitter getUserInfo:self.screenName] retain];
+	NSLog(@"Fetching userinfo for %@",self.screenName);
 //	[self performSelectorOnMainThread:@selector(searchTwitterDidFinish) withObject:nil waitUntilDone:NO];
 	[twitter release];
 	[pool release];
@@ -76,7 +77,9 @@
 
 - (void)dealloc {
 	[screenName release];
+	[user release];
 	[avatar release];
+	[timestamp release];
 	[content release];
 	[image release];
 	[super dealloc];

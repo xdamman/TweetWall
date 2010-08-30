@@ -8,16 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import <CommonCrypto/CommonDigest.h>
+#import "Loader.h"
 
-@interface ImageLoader : NSObject {
+@interface ImageLoader : Loader {
 
 }
 
 + (UIImage *)loadImageFromURL: (NSURL *)url;
-+ (BOOL)fileExists: (NSString *) filePath;
-
-+ (NSString *) md5:(NSString *)str;
-
 + (void)saveImage:(UIImage *)image withName:(NSString *)name;
 
 @end

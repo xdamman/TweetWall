@@ -16,7 +16,9 @@
 	Twitter *twitter;
 	Utility *utils;
 	Tweet *t;
+	UIImageView *backgroundLayer;
 	CALayer *loadingView;
+	CATextLayer *loadingViewText;
 	NSTimer *rat;
 	UIView *previousTweetView;
 	UITextView *textView;
@@ -27,6 +29,7 @@
 - (void) flipToNext;
 - (void) addTweet:(Tweet*)t;
 - (void) search:(NSString *)searchText;
-- (void) utilityDidFinishFirstFetch;
-
+- (void) searchTwitterDidFinishSuccessfully;
+- (void) searchTwitterDidFinishWithNoResults;	
+- (UIColor *) colorWithHexString: (NSString *) stringToConvert;
 @end

@@ -12,7 +12,8 @@
 
 @protocol UtilityDelegate <NSObject>
 
-- (void) utilityDidFinishFirstFetch;
+- (void) searchTwitterDidFinishWithNoResults; // Happen if no Internet Connection, or Twitter Down
+- (void) searchTwitterDidFinishSuccessfully;
 
 @end
 
@@ -20,7 +21,7 @@
 
 @interface Utility : NSObject {
 	Twitter *twitter;
-	NSMutableArray *tweets;
+	NSArray *tweets;
 	int index;
 	NSString *keyword;
 	

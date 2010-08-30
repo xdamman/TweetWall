@@ -11,6 +11,10 @@
 		5D60B7381220A12B00A3A6BF /* space-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D60B7371220A12B00A3A6BF /* space-bg.png */; };
 		5D60B7951220A32300A3A6BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D60B7941220A32300A3A6BF /* QuartzCore.framework */; };
 		5D60B7A71220A38800A3A6BF /* CALayer+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D60B7A61220A38800A3A6BF /* CALayer+Additions.m */; };
+		F20DEC84122B565D004A0FEB /* StorifyAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = F20DEC83122B565D004A0FEB /* StorifyAPI.m */; };
+		F20DECA4122B66C3004A0FEB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F20DECA3122B66C3004A0FEB /* icon.png */; };
+		F22C4DC51223542B00E509FC /* JSONLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F22C4DC41223542B00E509FC /* JSONLoader.m */; };
+		F22C4DC81223544E00E509FC /* Loader.m in Sources */ = {isa = PBXBuildFile; fileRef = F22C4DC71223544E00E509FC /* Loader.m */; };
 		F29DD6BC1221A70B00B8F7BE /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = F29DD6BB1221A70B00B8F7BE /* RegexKitLite.m */; };
 		F29DD6C51221A80300B8F7BE /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F29DD6C41221A80300B8F7BE /* libicucore.dylib */; };
 		F2B0046012205DCE0055478E /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = F2B0045D12205DCE0055478E /* Twitter.m */; };
@@ -48,6 +52,13 @@
 		5D60B7941220A32300A3A6BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5D60B7A51220A38800A3A6BF /* CALayer+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Additions.h"; sourceTree = "<group>"; };
 		5D60B7A61220A38800A3A6BF /* CALayer+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Additions.m"; sourceTree = "<group>"; };
+		F20DEC82122B565D004A0FEB /* StorifyAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorifyAPI.h; sourceTree = "<group>"; };
+		F20DEC83122B565D004A0FEB /* StorifyAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorifyAPI.m; sourceTree = "<group>"; };
+		F20DECA3122B66C3004A0FEB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		F22C4DC31223542B00E509FC /* JSONLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONLoader.h; sourceTree = "<group>"; };
+		F22C4DC41223542B00E509FC /* JSONLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONLoader.m; sourceTree = "<group>"; };
+		F22C4DC61223544E00E509FC /* Loader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loader.h; sourceTree = "<group>"; };
+		F22C4DC71223544E00E509FC /* Loader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loader.m; sourceTree = "<group>"; };
 		F29DD6BA1221A70B00B8F7BE /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
 		F29DD6BB1221A70B00B8F7BE /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
 		F29DD6C41221A80300B8F7BE /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
@@ -117,6 +128,7 @@
 		5D60B7361220A12B00A3A6BF /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F20DECA3122B66C3004A0FEB /* icon.png */,
 				F2F470571221C1A200AF5FC1 /* large-speech-bubble.png */,
 				F2F470581221C1A200AF5FC1 /* user-block-bg.png */,
 				5D60B7371220A12B00A3A6BF /* space-bg.png */,
@@ -236,12 +248,18 @@
 		F2D76A32122048320084F721 /* backend */ = {
 			isa = PBXGroup;
 			children = (
+				F22C4DC61223544E00E509FC /* Loader.h */,
+				F22C4DC71223544E00E509FC /* Loader.m */,
 				F2B0045C12205DCE0055478E /* Twitter.h */,
 				F2B0045D12205DCE0055478E /* Twitter.m */,
 				F2B0045E12205DCE0055478E /* Tweet.h */,
 				F2B0045F12205DCE0055478E /* Tweet.m */,
 				F2D76A2B122048280084F721 /* ImageLoader.h */,
 				F2D76A2C122048280084F721 /* ImageLoader.m */,
+				F22C4DC31223542B00E509FC /* JSONLoader.h */,
+				F22C4DC41223542B00E509FC /* JSONLoader.m */,
+				F20DEC82122B565D004A0FEB /* StorifyAPI.h */,
+				F20DEC83122B565D004A0FEB /* StorifyAPI.m */,
 			);
 			name = backend;
 			sourceTree = "<group>";
@@ -303,6 +321,7 @@
 				5D60B7381220A12B00A3A6BF /* space-bg.png in Resources */,
 				F2F470591221C1A200AF5FC1 /* large-speech-bubble.png in Resources */,
 				F2F4705A1221C1A200AF5FC1 /* user-block-bg.png in Resources */,
+				F20DECA4122B66C3004A0FEB /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +352,9 @@
 				57BEB9481220901500874EF1 /* Utility.m in Sources */,
 				5D60B7A71220A38800A3A6BF /* CALayer+Additions.m in Sources */,
 				F29DD6BC1221A70B00B8F7BE /* RegexKitLite.m in Sources */,
+				F22C4DC51223542B00E509FC /* JSONLoader.m in Sources */,
+				F22C4DC81223544E00E509FC /* Loader.m in Sources */,
+				F20DEC84122B565D004A0FEB /* StorifyAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

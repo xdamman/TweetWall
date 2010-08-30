@@ -31,30 +31,14 @@
 
 - (NSArray *)searchByKeyword:(NSString *)keyword limit:(int)limit
 {	
-	NSString *queryString = [[NSString stringWithFormat:@"http://search.twitter.com/search.json?q=%@&limit=%d",keyword,limit] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+	NSString *queryString = [[NSString stringWithFormat:@"http://search.twitter.com/search.json?q=%@&rpp=%d",keyword,limit] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
 	
-	
-//	NSURL *query = [[NSURL alloc] initWithString:queryString];
 	NSLog(@"Searching %@",queryString);
-	
-    // shoaiby 4/18: Fixed deprecated warning with stringWithContentsOfURL
-    NSError *error = nil;
-	NSString *json = [NSString stringWithContentsOfURL:[NSURL URLWithString:queryString]
-                                              encoding:NSUTF8StringEncoding
-                                                 error:&error];
-    
-	NSString *jsonObj = [NSString stringWithFormat:@"{\"root\":%@}",json];
-	
 		
-	NSData *jsonData = [jsonObj dataUsingEncoding:NSUTF32BigEndianStringEncoding];
-	error = nil;
-		
-	NSDictionary *tweetsData = [[CJSONDeserializer deserializer] deserializeAsDictionary:jsonData error:&error];
-
-	//NSLog(@"Error received: %@",error);
-	return [self processTweets:tweetsData];
-//	[query release];
-	//NSLog(@"Tweets: %@",tweets);
+	NSDictionary *tweetsData = [JSONLoader loadJsonFromURL:[NSURL URLWithString:queryString] withMaxCacheInSeconds:5];
+	
+	NSArray *tweets = [[self processTweets:tweetsData] retain];
+	return [tweets autorelease];
 }
 
 - (NSDictionary *)getUserInfo:(NSString *)screenName {
@@ -63,27 +47,15 @@
 	
 	NSLog(@"Requesting %@",queryString);
 	
-    NSError *error = nil;
-	NSString *json = [NSString stringWithContentsOfURL:[NSURL URLWithString:queryString]
-                                              encoding:NSUTF8StringEncoding
-                                                 error:&error];
-    
-	NSString *jsonObj = [NSString stringWithFormat:@"{\"root\":%@}",json];
+	NSDictionary *userData = [JSONLoader loadJsonFromURL:[NSURL URLWithString:queryString]];
 	
-	
-	NSData *jsonData = [jsonObj dataUsingEncoding:NSUTF32BigEndianStringEncoding];
-	error = nil;
-	
-	NSDictionary *userData = [[CJSONDeserializer deserializer] deserializeAsDictionary:jsonData error:&error];
-	
-	//NSLog(@"Error received: %@",error);
 	return [userData objectForKey:@"root"];
 	
 }
 
 
 - (NSArray *) processTweets:(NSDictionary *)tweetsData {
-
+	[tweetsData retain];
 	NSEnumerator *enumerator = [[[tweetsData objectForKey:@"root"] objectForKey:@"results"] objectEnumerator];
 	NSDictionary *t;
 	
@@ -98,6 +70,7 @@
 		[tweet release];
 	}
 	
+	[tweetsData release];
 	[tweets autorelease];
 	
 	return tweets;

@@ -20,7 +20,7 @@
 	
 	index = 0;
 	twitter = [[Twitter alloc] init];
-	tweets = [[NSMutableArray alloc] init];
+	tweets = [[NSArray alloc] init];
 	
 	return self;
 }
@@ -30,8 +30,11 @@
 	
 	//TODO
 	//handle when we have 0 and less than 20 results
-
-	NSLog(@"Tweets count: %i",tweets.count);
+	
+	NSLog(@"\n\
+		  *****************************\n\
+		  Current tweet: %i/%i, next: %i\n\
+		  *****************************",index,[tweets count],index+1);
 	
 	if (tweets.count == 0) {
 		return nil;
@@ -42,12 +45,11 @@
 	}
 	
 	if (tweets.count > 2 && index == tweets.count - 2) {
+		NSLog(@"Updating tweets queue for keyword: %@",self.keyword);
 		[self setSearchKeyword:self.keyword];
 	}
 	
-	NSLog(@"Returning tweet %@",[tweets objectAtIndex:index]);
-	return [tweets objectAtIndex:index++];
-		
+	return [tweets objectAtIndex:index++];		
 }
 
 - (void) setSearchKeyword: (NSString *)aKeyword {
@@ -61,22 +63,21 @@
 												
 - (void) searchTwitterThread {
 	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-	NSLog(@"New thread");
 	
-	[tweets removeAllObjects];
-	[tweets addObjectsFromArray:[twitter searchByKeyword:self.keyword limit:20]];
-	
-	//NSLog(@"Tweets count: %i", tweets.count);
-	if (tweets.count > 0)
-		NSLog(@"first tweet: %@", [tweets objectAtIndex:0]);
-
-	if (!tweets || tweets.count == 0) {
+	NSArray *newtweets = [[twitter searchByKeyword:self.keyword limit:5] retain];
+		
+	if (!newtweets || newtweets.count == 0) {
 		NSLog(@"No result found");
-		[tweets addObjectsFromArray:[twitter searchByKeyword:@"\"no results\"" limit:20]];
+		newtweets = [twitter searchByKeyword:@"\"no results\"" limit:15];
 	}
 	
-	[self performSelectorOnMainThread:@selector(searchTwitterDidFinish) withObject:nil waitUntilDone:NO];
-	
+	if (newtweets && newtweets.count > 0) {
+		tweets = newtweets;
+		[self performSelectorOnMainThread:@selector(searchTwitterDidFinish) withObject:nil waitUntilDone:NO];
+	}
+	else {
+		[self performSelectorOnMainThread:@selector(searchTwitterDidFinishWithNoResults) withObject:nil waitUntilDone:NO];
+	}
 	[pool release];
 }
 
@@ -87,10 +88,15 @@
 	[super dealloc];
 }
 
+- (void)searchTwitterDidFinishWithNoResults {
+	if([delegate respondsToSelector:@selector(searchTwitterDidFinishWithNoResults)]) {
+		[delegate searchTwitterDidFinishWithNoResults];
+	}
+}
+
 - (void)searchTwitterDidFinish {
-	NSLog(@"This is where Im supposed to call the delegate utilityDidFinishFirstFetch");
-	if([delegate respondsToSelector:@selector(utilityDidFinishFirstFetch)]) {
-		[delegate utilityDidFinishFirstFetch];
+	if([delegate respondsToSelector:@selector(searchTwitterDidFinishSuccessfully)]) {
+		[delegate searchTwitterDidFinishSuccessfully];
 	}
 }
 
