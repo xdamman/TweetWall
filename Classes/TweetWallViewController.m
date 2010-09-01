@@ -35,7 +35,7 @@
 	
 	UISearchBar *searchBar = [[UISearchBar alloc] initWithFrame:CGRectMake(0.0f, 0.0f, 300.0f, 0.0f)];
 	searchBar.delegate = self;
-	NSString *searchText = @"xdamman/flipboard";
+	NSString *searchText = @"storify/testimonials";
 	searchBar.text = searchText;
 	self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithCustomView:searchBar] autorelease];
 	[self search:searchText];

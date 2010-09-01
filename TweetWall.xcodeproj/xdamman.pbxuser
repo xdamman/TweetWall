@@ -38,9 +38,9 @@
 	};
 	F20DEC83122B565D004A0FEB /* StorifyAPI.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {880, 2071}}";
-			sepNavSelRange = "{381, 0}";
-			sepNavVisRange = "{334, 95}";
+			sepNavIntBoundsRect = "{{0, 0}, {1444, 1672}}";
+			sepNavSelRange = "{2093, 0}";
+			sepNavVisRange = "{1443, 787}";
 			sepNavWindowFrame = "{{0, 4}, {1280, 774}}";
 		};
 	};
@@ -107,7 +107,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 130";
 		rLen = 0;
-		rLoc = 5340;
+		rLoc = 5343;
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 4591;
@@ -306,7 +306,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 53";
 		rLen = 10;
-		rLoc = 2165;
+		rLoc = 2168;
 		rType = 0;
 		vrLen = 1102;
 		vrLoc = 1986;
@@ -316,7 +316,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 53";
 		rLen = 0;
-		rLoc = 2143;
+		rLoc = 2146;
 		rType = 0;
 		vrLen = 1268;
 		vrLoc = 1762;
@@ -406,7 +406,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 80";
 		rLen = 0;
-		rLoc = 3251;
+		rLoc = 3254;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 2792;
@@ -416,7 +416,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 55";
 		rLen = 0;
-		rLoc = 2180;
+		rLoc = 2183;
 		rType = 0;
 		vrLen = 1085;
 		vrLoc = 1734;
@@ -958,7 +958,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 105";
 		rLen = 0;
-		rLoc = 4207;
+		rLoc = 4210;
 		rType = 0;
 		vrLen = 787;
 		vrLoc = 3789;
@@ -997,7 +997,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 216";
 		rLen = 0;
-		rLoc = 8307;
+		rLoc = 8310;
 		rType = 0;
 		vrLen = 152;
 		vrLoc = 8151;
@@ -1017,7 +1017,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 220";
 		rLen = 0;
-		rLoc = 8307;
+		rLoc = 8310;
 		rType = 0;
 		vrLen = 656;
 		vrLoc = 7886;
@@ -1074,7 +1074,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 107";
 		rLen = 0;
-		rLoc = 4365;
+		rLoc = 4368;
 		rType = 0;
 		vrLen = 761;
 		vrLoc = 3876;
@@ -1084,7 +1084,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 107";
 		rLen = 0;
-		rLoc = 4365;
+		rLoc = 4368;
 		rType = 0;
 		vrLen = 652;
 		vrLoc = 3986;
@@ -1094,7 +1094,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 216";
 		rLen = 0;
-		rLoc = 8307;
+		rLoc = 8310;
 		rType = 0;
 		vrLen = 152;
 		vrLoc = 8151;
@@ -1104,7 +1104,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 108";
 		rLen = 0;
-		rLoc = 4441;
+		rLoc = 4444;
 		rType = 0;
 		vrLen = 756;
 		vrLoc = 4114;
@@ -1114,7 +1114,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 216";
 		rLen = 0;
-		rLoc = 8307;
+		rLoc = 8310;
 		rType = 0;
 		vrLen = 180;
 		vrLoc = 8184;
@@ -1124,7 +1124,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 108";
 		rLen = 0;
-		rLoc = 4441;
+		rLoc = 4444;
 		rType = 0;
 		vrLen = 758;
 		vrLoc = 4114;
@@ -1144,7 +1144,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 216";
 		rLen = 0;
-		rLoc = 8307;
+		rLoc = 8310;
 		rType = 0;
 		vrLen = 180;
 		vrLoc = 8184;
@@ -1174,7 +1174,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 108";
 		rLen = 0;
-		rLoc = 4441;
+		rLoc = 4444;
 		rType = 0;
 		vrLen = 708;
 		vrLoc = 4164;
@@ -1184,7 +1184,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 108";
 		rLen = 0;
-		rLoc = 4441;
+		rLoc = 4444;
 		rType = 0;
 		vrLen = 708;
 		vrLoc = 4164;
@@ -1224,7 +1224,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 216";
 		rLen = 0;
-		rLoc = 8307;
+		rLoc = 8310;
 		rType = 0;
 		vrLen = 180;
 		vrLoc = 8184;
@@ -1254,7 +1254,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 216";
 		rLen = 0;
-		rLoc = 8307;
+		rLoc = 8310;
 		rType = 0;
 		vrLen = 180;
 		vrLoc = 8184;
@@ -1283,7 +1283,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 222";
 		rLen = 0;
-		rLoc = 8454;
+		rLoc = 8457;
 		rType = 0;
 		vrLen = 274;
 		vrLoc = 8361;
@@ -1293,7 +1293,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 222";
 		rLen = 0;
-		rLoc = 8454;
+		rLoc = 8457;
 		rType = 0;
 		vrLen = 274;
 		vrLoc = 8361;
@@ -1320,7 +1320,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 108";
 		rLen = 0;
-		rLoc = 4365;
+		rLoc = 4368;
 		rType = 0;
 		vrLen = 665;
 		vrLoc = 4041;
@@ -1330,7 +1330,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 222";
 		rLen = 0;
-		rLoc = 8454;
+		rLoc = 8457;
 		rType = 0;
 		vrLen = 275;
 		vrLoc = 8361;
@@ -1340,7 +1340,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 108";
 		rLen = 0;
-		rLoc = 4365;
+		rLoc = 4368;
 		rType = 0;
 		vrLen = 764;
 		vrLoc = 4041;
@@ -1357,7 +1357,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 227";
 		rLen = 0;
-		rLoc = 8454;
+		rLoc = 8457;
 		rType = 0;
 		vrLen = 385;
 		vrLoc = 8645;
@@ -1387,7 +1387,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 106";
 		rLen = 54;
-		rLoc = 4215;
+		rLoc = 4218;
 		rType = 0;
 		vrLen = 593;
 		vrLoc = 4214;
@@ -1397,7 +1397,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 227";
 		rLen = 0;
-		rLoc = 8454;
+		rLoc = 8457;
 		rType = 0;
 		vrLen = 275;
 		vrLoc = 8460;
@@ -1407,7 +1407,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 106";
 		rLen = 54;
-		rLoc = 4215;
+		rLoc = 4218;
 		rType = 0;
 		vrLen = 593;
 		vrLoc = 4214;
@@ -1485,7 +1485,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 227";
 		rLen = 0;
-		rLoc = 8454;
+		rLoc = 8457;
 		rType = 0;
 		vrLen = 275;
 		vrLoc = 8460;
@@ -1512,7 +1512,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 106";
 		rLen = 0;
-		rLoc = 4215;
+		rLoc = 4218;
 		rType = 0;
 		vrLen = 671;
 		vrLoc = 4041;
@@ -1532,7 +1532,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 110";
 		rLen = 0;
-		rLoc = 4352;
+		rLoc = 4355;
 		rType = 0;
 		vrLen = 664;
 		vrLoc = 4041;
@@ -1542,7 +1542,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 111";
 		rLen = 0;
-		rLoc = 4361;
+		rLoc = 4364;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4114;
@@ -1552,7 +1552,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 111";
 		rLen = 0;
-		rLoc = 4361;
+		rLoc = 4364;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 4164;
@@ -1562,7 +1562,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 227";
 		rLen = 0;
-		rLoc = 8407;
+		rLoc = 8410;
 		rType = 0;
 		vrLen = 276;
 		vrLoc = 8406;
@@ -1661,7 +1661,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 227";
 		rLen = 10;
-		rLoc = 8436;
+		rLoc = 8439;
 		rType = 0;
 		vrLen = 568;
 		vrLoc = 8213;
@@ -1671,7 +1671,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 227";
 		rLen = 0;
-		rLoc = 8436;
+		rLoc = 8439;
 		rType = 0;
 		vrLen = 528;
 		vrLoc = 8248;
@@ -1699,7 +1699,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 227";
 		rLen = 0;
-		rLoc = 8436;
+		rLoc = 8439;
 		rType = 0;
 		vrLen = 528;
 		vrLoc = 8248;
@@ -1779,7 +1779,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 114";
 		rLen = 34;
-		rLoc = 4408;
+		rLoc = 4411;
 		rType = 0;
 		vrLen = 683;
 		vrLoc = 4114;
@@ -1859,7 +1859,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 114";
 		rLen = 34;
-		rLoc = 4408;
+		rLoc = 4411;
 		rType = 0;
 		vrLen = 625;
 		vrLoc = 4114;
@@ -1923,6 +1923,46 @@
 		rType = 0;
 		vrLen = 95;
 		vrLoc = 334;
+	};
+	F20DEE22122ED598004A0FEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F20DEC83122B565D004A0FEB /* StorifyAPI.m */;
+		name = "StorifyAPI.m: 76";
+		rLen = 0;
+		rLoc = 2093;
+		rType = 0;
+		vrLen = 787;
+		vrLoc = 1443;
+	};
+	F20DEE23122ED598004A0FEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
+		name = "TweetWallViewController.m: 38";
+		rLen = 0;
+		rLoc = 1518;
+		rType = 0;
+		vrLen = 1545;
+		vrLoc = 554;
+	};
+	F20DEE24122ED598004A0FEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
+		name = "TweetWallViewController.m: 38";
+		rLen = 0;
+		rLoc = 1538;
+		rType = 0;
+		vrLen = 1121;
+		vrLoc = 1291;
+	};
+	F20DEE27122ED5E4004A0FEB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
+		name = "TweetWallViewController.m: 38";
+		rLen = 0;
+		rLoc = 1538;
+		rType = 0;
+		vrLen = 1039;
+		vrLoc = 1291;
 	};
 	F22C4DA11223518000E509FC /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -2137,7 +2177,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 43";
 		rLen = 0;
-		rLoc = 1730;
+		rLoc = 1733;
 		rType = 0;
 		vrLen = 1186;
 		vrLoc = 978;
@@ -2147,7 +2187,7 @@
 		fRef = F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */;
 		name = "TweetWallViewController.m: 126";
 		rLen = 0;
-		rLoc = 5143;
+		rLoc = 5146;
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 4591;
@@ -2339,7 +2379,7 @@
 		activeArchitecturePreference = armv6;
 		activeBuildConfigurationName = Release;
 		activeExecutable = F2CF8E291220439E00CDF2EE /* TweetWall */;
-		activeSDKPreference = iphoneos3.2;
+		activeSDKPreference = iphonesimulator3.2;
 		activeTarget = F2CF8E261220439E00CDF2EE /* TweetWall */;
 		addToTargets = (
 			F2CF8E261220439E00CDF2EE /* TweetWall */,
@@ -2613,6 +2653,10 @@
 			F20DEE15122B9495004A0FEB /* PBXTextBookmark */ = F20DEE15122B9495004A0FEB /* PBXTextBookmark */;
 			F20DEE1A122B94F5004A0FEB /* PBXTextBookmark */ = F20DEE1A122B94F5004A0FEB /* PBXTextBookmark */;
 			F20DEE1F122B9745004A0FEB /* PBXTextBookmark */ = F20DEE1F122B9745004A0FEB /* PBXTextBookmark */;
+			F20DEE22122ED598004A0FEB /* PBXTextBookmark */ = F20DEE22122ED598004A0FEB /* PBXTextBookmark */;
+			F20DEE23122ED598004A0FEB /* PBXTextBookmark */ = F20DEE23122ED598004A0FEB /* PBXTextBookmark */;
+			F20DEE24122ED598004A0FEB /* PBXTextBookmark */ = F20DEE24122ED598004A0FEB /* PBXTextBookmark */;
+			F20DEE27122ED5E4004A0FEB /* PBXTextBookmark */ = F20DEE27122ED5E4004A0FEB /* PBXTextBookmark */;
 			F22C4DA11223518000E509FC = F22C4DA11223518000E509FC /* PBXTextBookmark */;
 			F22C4DDE12235AA600E509FC = F22C4DDE12235AA600E509FC /* PBXTextBookmark */;
 			F22C4DE112235AA600E509FC = F22C4DE112235AA600E509FC /* PBXTextBookmark */;
@@ -2753,9 +2797,9 @@
 	};
 	F2CF8E3E1220439E00CDF2EE /* TweetWallViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1956, 5320}}";
-			sepNavSelRange = "{1518, 0}";
-			sepNavVisRange = "{554, 1545}";
+			sepNavIntBoundsRect = "{{0, 0}, {1956, 5282}}";
+			sepNavSelRange = "{1538, 0}";
+			sepNavVisRange = "{1291, 1039}";
 			sepNavWindowFrame = "{{0, 4}, {1280, 774}}";
 		};
 	};
